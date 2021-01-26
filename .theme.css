@@ -4,7 +4,6 @@
  * @version 1
  * @description Celeste theme.
  */
-@import url(https://github.com/Megadash452/Discord-Theme/blob/master/theme-core.css);
 
 :root {
     /*-- COLORS --*/
@@ -16,9 +15,116 @@
     --color-yellow:     #FFFC24;
     
     /*--  --*/
+    --channel-unread:     var(--color-yellow);
+    --channel-hover:      var(--color-yellow);
+    --channel-hover-bg: rgba(184, 170, 11, 0.498);
+	--channel-color:    rgba(255,255,255,0.3);
+	--muted-color:      rgba(255,255,255,0.1);
+	--channel-text-selected: #fff;
+    --url-color:          var(--main-color);
+    
+    --background-image: url("res/Heart of the ");
 }
+
 .da-titleBar{
     background-color: rgba(0, 0, 0, 0);
     margin: 0px;
     padding-top: 4px;
 }
+
+.appMount-3lHmkl {
+	background: rgb(0, 0, 0, 0.6);
+}
+.bg-h5JY_x {
+	background: var(--background-image) center/cover no-repeat fixed;
+	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
+	filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
+	z-index: -9999;
+}
+
+/*--- --- Server List and Channels Popouts --- ---*/
+#guild-context, #guild-header-popout {
+    background: var(--background-image) center/cover no-repeat fixed;
+}
+/*---  ---*/
+
+/*--- --- CHANNELS --- ---*/
+.da-sidebar .da-header .da-name,
+.da-sidebar .da-header .da-button{
+    color: var(--color-light-blue)
+}
+
+/*- Channel Category and +button (hover) -*/
+.da-iconVisibility.da-wrapper:hover .overflow-WK9Ogt.da-overflow,
+.da-iconVisibility.da-wrapper:hover .da-arrow.da-icon,
+.da-iconVisibility.da-wrapper .da-children:hover .da-addButtonIcon {
+    color: var(--channel-hover)
+}
+
+/*- Channel color -*/
+.da-content .da-icon,
+.da-content .da-name {
+    color: var(--channel-color);
+}
+.content-1x5b-n.da-content:hover {
+    background-color: var(--channel-hover-bg);
+    color: var(--channel-hover);
+}
+.content-1x5b-n.da-content:hover .da-icon {
+    color: var(--channel-hover);
+}
+
+/*- Channel unread -*/
+.modeUnread-1qO3K1 .da-name,
+.modeUnread-1qO3K1 .da-icon {
+    color: var(--channel-unread);
+}
+.modeUnread-1qO3K1 .da-unread {
+    background-color: var(--color-light-blue);
+}
+
+/*- Channel selected -*/
+.modeSelected-346R90 .da-name,
+.modeSelected-346R90 .da-icon,
+.modeSelected-346R90 .da-children .da-actionIcon {
+    color: #ffffff;
+}
+.modeSelected-346R90 .da-content {
+    background-color: var(--color-gold);
+}
+/*---  ---*/
+
+
+/*--- --- Settings --- ---*/
+.side-8zPYf6 .da-header {
+    color: var(--color-yellow)
+}
+
+/*- Settings Side Bar -*/
+.side-8zPYf6 .da-item {
+    color: var(--channel-color)
+}
+.side-8zPYf6 .da-item:hover {
+    background-color: var(--channel-hover-bg) !important;
+}
+.side-8zPYf6 .da-selected {
+    background-color: var(--color-gold) !important;
+    color: #ffffff;
+}
+
+#bd-settings-sidebar .ui-tab-bar-header {
+    color: var(--color-yellow) !important;
+}
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+    background-color: var(--channel-hover-bg) !important;
+}
+#bd-settings-sidebar .selected {
+    background-color: var(--color-gold) !important;
+    color: #ffffff !important;
+}
+
+/*-- BD -Settings- --*/
+.bd-switch-checked, .bd-pfbtn {
+    background-color: var(--color-light-blue);
+}
+/*---  ---*/
