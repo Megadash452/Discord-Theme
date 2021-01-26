@@ -44,14 +44,14 @@
 /*--- --- Top Bar (windows) --- ---*/
 .da-winButtonClose {
     background-color: #B80B336c;
-    border-top-right-radius: 50%;
+    border-top-right-radius: 8px;
 }
 .da-winButtonMinMax:nth-of-type(3) {
     background-color: #B8A90B6a;
 }
 .da-winButtonMinMax:nth-of-type(4) {
     background-color: #58AAFC6a;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 8px;
 }
 
 .da-winButtonClose:hover {
@@ -80,6 +80,11 @@
 .da-baseLayer > nav {
     background-color: aliceblue;
 }
+/*---  ---*/
+
+
+/*--- --- Direct Messages--- ---*/
+
 /*---  ---*/
 
 
