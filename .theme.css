@@ -5,7 +5,7 @@
  * @description Celeste theme.
  */
 
-:root {
+ :root {
     /*-- COLORS --*/
     --color-blue:       #58AAFC;
 	--color-light-blue: #7FF2F8;
@@ -23,7 +23,7 @@
 	--channel-text-selected: #fff;
     --url-color:          var(--main-color);
     
-    --background-image: url("res/Heart of the ");
+    --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
 }
 
 .da-titleBar{
@@ -35,18 +35,53 @@
 .appMount-3lHmkl {
 	background: rgb(0, 0, 0, 0.6);
 }
-.bg-h5JY_x {
+.da-bg{
 	background: var(--background-image) center/cover no-repeat fixed;
 	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
 	filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
 	z-index: -9999;
 }
+/*--- --- Top Bar (windows) --- ---*/
+.da-winButtonClose {
+    background-color: #B80B336c;
+    border-top-right-radius: 50%;
+}
+.da-winButtonMinMax:nth-of-type(3) {
+    background-color: #B8A90B6a;
+}
+.da-winButtonMinMax:nth-of-type(4) {
+    background-color: #58AAFC6a;
+    border-top-left-radius: 50%;
+}
+
+.da-winButtonClose:hover {
+    background-color: #FF24576c;
+    border-top-right-radius: 0%;
+}
+.da-winButtonMinMax:nth-of-type(3):hover {
+    background-color: #fffb246a;
+}
+.da-winButtonMinMax:nth-of-type(4):hover {
+    background-color: #7ff2f86a;
+    border-top-left-radius: 0%;
+}
+/*---  ---*/
+
 
 /*--- --- Server List and Channels Popouts --- ---*/
 #guild-context, #guild-header-popout {
-    background: var(--background-image) center/cover no-repeat fixed;
+    background-image: var(--background-image);
+    background-color: #00000000;
 }
 /*---  ---*/
+
+
+/*--- --- Server List --- ---*/
+.da-baseLayer > nav {
+    background-color: aliceblue;
+}
+/*---  ---*/
+
 
 /*--- --- CHANNELS --- ---*/
 .da-sidebar .da-header .da-name,
@@ -55,10 +90,10 @@
 }
 
 /*- Channel Category and +button (hover) -*/
-.da-iconVisibility.da-wrapper:hover .overflow-WK9Ogt.da-overflow,
-.da-iconVisibility.da-wrapper:hover .da-arrow.da-icon,
-.da-iconVisibility.da-wrapper .da-children:hover .da-addButtonIcon {
-    color: var(--channel-hover)
+.containerDefault-3tr_sE .da-wrapper:hover .da-overflow,
+.containerDefault-3tr_sE .da-wrapper:hover .da-arrow.da-icon,
+.containerDefault-3tr_sE .da-children:hover .da-addButtonIcon {
+    color: var(--color-light-red)
 }
 
 /*- Channel color -*/
@@ -68,8 +103,8 @@
 }
 .content-1x5b-n.da-content:hover {
     background-color: var(--channel-hover-bg);
-    color: var(--channel-hover);
 }
+.content-1x5b-n.da-content:hover .da-name,
 .content-1x5b-n.da-content:hover .da-icon {
     color: var(--channel-hover);
 }
@@ -95,6 +130,46 @@
 /*---  ---*/
 
 
+/*--- --- s --- ---*/
+.da-privateChannels,
+.da-sidebar,
+.da-base > .da-content,
+.da-base,
+.da-baseLayer > .da-container,
+.da-baseLayer,
+.da-layers,
+.da-bg,
+.da-app,
+
+.da-tree > .da-scroller,
+.da-tree,
+.guilds-1SWlCJ {
+    background-color: transparent;
+}
+
+.da-clickable > .da-header,
+.da-privateChannels > .da-searchBar {
+    background-color: #2f3136;
+    border-top-left-radius: 10px;
+    border-top: 1px solid var(--color-blue);
+    border-left: 1px solid var(--color-blue);
+}
+.da-title.da-container {
+    border-top: 1px solid var(--color-blue);
+    margin-bottom: 1px;
+}
+
+.da-sidebar .da-scroller,
+.da-sidebar .da-panels {
+    border-left: 1px solid var(--color-blue);
+}
+/*--- ---*/
+
+
+
+
+
+
 /*--- --- Settings --- ---*/
 .side-8zPYf6 .da-header {
     color: var(--color-yellow)
@@ -103,6 +178,9 @@
 /*- Settings Side Bar -*/
 .side-8zPYf6 .da-item {
     color: var(--channel-color)
+}
+.side-8zPYf6 .da-item:nth-of-type(8) { /**/
+    color: var(--color-light-red) !important;
 }
 .side-8zPYf6 .da-item:hover {
     background-color: var(--channel-hover-bg) !important;
@@ -126,5 +204,9 @@
 /*-- BD -Settings- --*/
 .bd-switch-checked, .bd-pfbtn {
     background-color: var(--color-light-blue);
+    color: grey;
+}
+.bd-pfbtn:hover {
+    color: #ffffff;
 }
 /*---  ---*/
