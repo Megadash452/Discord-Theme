@@ -104,7 +104,7 @@
 }
 .da-tutorialContainer .da-wrapper svg .da-wrapper.da-selected .da-childWrapper{
     background-color: #3b86d1;
-    color: var(--color-yellow);
+    color: #ffffff;
 }
 /*---  ---*/
 
@@ -150,7 +150,9 @@
 /*- Channel Category and +button (hover) -*/
 .containerDefault-3tr_sE .da-wrapper:hover .da-overflow,
 .containerDefault-3tr_sE .da-wrapper:hover .da-arrow.da-icon,
-.containerDefault-3tr_sE .da-children:hover .da-addButtonIcon {
+.containerDefault-3tr_sE .da-children:hover .da-addButtonIcon,
+.containerDefault-3tr_sE .da-collapsed .da-overflow,
+.containerDefault-3tr_sE .da-collapsed .da-arrow.da-icon {
     color: var(--color-light-red)
 }
 
