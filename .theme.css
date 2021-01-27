@@ -20,8 +20,13 @@
     --channel-hover-bg: rgba(184, 170, 11, 0.498);
 	--channel-color:    rgba(255,255,255,0.3);
 	--muted-color:      rgba(255,255,255,0.1);
-	--channel-text-selected: #fff;
+    --channel-text-selected: #fff;
+    --channel-padding: 6px;
     --url-color:          var(--main-color);
+
+    --sidebar-top-color:    #2f313696;
+    --sidebar-mid-color:    #2f313696;
+    --sidebar-bottom-color: #222325a4;
     
     --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
 }
@@ -80,6 +85,54 @@
 .da-baseLayer > nav {
     background-color: aliceblue;
 }
+
+.da-expandedFolderIconWrapper > svg {
+    color: var(--color-blue) !important;
+}
+
+.da-listItemWrapper .da-circleButtonMask .da-circleIconButton{
+    color: var(--color-blue);
+}
+.da-listItemWrapper .da-circleButtonMask:hover .da-circleIconButton{
+    color: var(--color-yellow);
+    background: var(--color-gold)
+}
+
+.da-tutorialContainer .da-wrapper svg .da-wrapper .da-childWrapper{
+    background-color: transparent;
+    color: var(--color-blue);
+}
+.da-tutorialContainer .da-wrapper svg .da-wrapper.da-selected .da-childWrapper{
+    background-color: #3b86d1;
+    color: var(--color-yellow);
+}
+/*---  ---*/
+
+
+/*--- --- App Base --- ---*/
+.da-mention.da-active,
+.da-numberBadge {
+    background: var(--color-light-red) !important;
+}
+
+.da-sidebar .da-searchBar,
+.da-sidebar .da-header {
+    background: var(--sidebar-top-color);
+}
+.da-base .da-sidebar .da-scroller {
+    background: var(--sidebar-mid-color) !important;
+}
+.da-sidebar .da-panels {
+    background: var(--sidebar-bottom-color);
+}
+
+.da-sidebar .da-searchBarComponent {
+    background: var(--sidebar-bottom-color);
+    border: 1px solid #0a0a0a;
+}
+.da-sidebar .da-container {
+    background-color: transparent;
+}
 /*---  ---*/
 
 
@@ -106,21 +159,30 @@
 .da-content .da-name {
     color: var(--channel-color);
 }
+.da-iconContainer {
+    margin-right: 0px;
+}
+.da-content .da-name {
+    padding-left: var(--channel-padding);
+}
 .content-1x5b-n.da-content:hover {
-    background-color: var(--channel-hover-bg);
+    background: var(--channel-hover-bg);
 }
 .content-1x5b-n.da-content:hover .da-name,
-.content-1x5b-n.da-content:hover .da-icon {
+.content-1x5b-n.da-content:hover .da-icon,
+.content-1x5b-n.da-content .da-iconBase:hover .da-actionIcon {
     color: var(--channel-hover);
+    text-shadow: 0 0 5px var(--channel-hover);
 }
 
 /*- Channel unread -*/
 .modeUnread-1qO3K1 .da-name,
 .modeUnread-1qO3K1 .da-icon {
     color: var(--channel-unread);
+    text-shadow: 0 0 5px var(--channel-unread);
 }
 .modeUnread-1qO3K1 .da-unread {
-    background-color: var(--color-light-blue);
+    background: var(--color-light-blue);
 }
 
 /*- Channel selected -*/
@@ -130,7 +192,7 @@
     color: #ffffff;
 }
 .modeSelected-346R90 .da-content {
-    background-color: var(--color-gold);
+    background: var(--color-gold);
 }
 /*---  ---*/
 
@@ -154,14 +216,19 @@
 
 .da-clickable > .da-header,
 .da-privateChannels > .da-searchBar {
-    background-color: #2f3136;
     border-top-left-radius: 10px;
     border-top: 1px solid var(--color-blue);
     border-left: 1px solid var(--color-blue);
 }
-.da-title.da-container {
+.da-themed.da-container,
+.da-videoControls .da-container.da-transparent {
     border-top: 1px solid var(--color-blue);
+}
+.da-themed.da-container {
     margin-bottom: 1px;
+}
+.da-clickable .da-header {
+    height: 49px;
 }
 
 .da-sidebar .da-scroller,
@@ -188,10 +255,10 @@
     color: var(--color-light-red) !important;
 }
 .side-8zPYf6 .da-item:hover {
-    background-color: var(--channel-hover-bg) !important;
+    background: var(--channel-hover-bg) !important;
 }
 .side-8zPYf6 .da-selected {
-    background-color: var(--color-gold) !important;
+    background: var(--color-gold) !important;
     color: #ffffff;
 }
 
@@ -199,16 +266,16 @@
     color: var(--color-yellow) !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background-color: var(--channel-hover-bg) !important;
+    background: var(--channel-hover-bg) !important;
 }
 #bd-settings-sidebar .selected {
-    background-color: var(--color-gold) !important;
+    background: var(--color-gold) !important;
     color: #ffffff !important;
 }
 
 /*-- BD -Settings- --*/
 .bd-switch-checked, .bd-pfbtn {
-    background-color: var(--color-light-blue);
+    background: var(--color-light-blue);
     color: grey;
 }
 .bd-pfbtn:hover {
