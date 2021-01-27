@@ -17,19 +17,22 @@
     /*--  --*/
     --channel-unread:     var(--color-yellow);
     --channel-hover:      var(--color-yellow);
-    --channel-hover-bg: rgba(184, 170, 11, 0.498);
-	--channel-color:    rgba(255,255,255,0.3);
-	--muted-color:      rgba(255,255,255,0.1);
+    --channel-hover-bg: #b8aa0b7f;
+	--channel-color:    #ffffff4d;
+	--muted-color:      #ffffff1a;
     --channel-text-selected: #fff;
     --channel-padding: 6px;
     --url-color:          var(--main-color);
 
-    --sidebar-top-color:    #27282996;
-    --sidebar-mid-color:    #20202096;
-    --sidebar-bottom-color: #1f1f20a4;
-    --chat-color:           #2020207c;
+    --base-border: 1px solid transparent;
+    --sidebar-top-color:    rgba(0, 0, 0, 0.302);
+    --sidebar-mid-color:    rgba(0, 0, 0, 0.302);
+    --sidebar-bottom-color: rgba(0, 0, 0, 0.6);
+    --chat-color:           rgba(0, 0, 0, 0.4);
+    --input-bg:             #6464644d;
     
     --background-image: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true);
+    --background-style: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
 }
 
 .da-titleBar{
@@ -43,8 +46,8 @@
 }
 .da-bg{
 	background: var(--background-image) center/cover no-repeat fixed;
-	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(110%) blur(2px);
-	filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(110%) blur(2px);
+	-webkit-filter: var(--background-style);
+	filter: var(--background-style);
 	z-index: -9999;
 }
 
@@ -221,6 +224,28 @@
 .da-chat {
     background: var(--chat-color);
 }
+.da-chatContent .da-scroller {
+    /*margin-bottom: 8px;*/
+}
+
+.da-form::before {
+    display: none;
+}
+.da-form {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.da-form > div {
+    border-radius: 9px;
+}
+.da-form .da-channelTextArea {
+    background: var(--background-image) center/cover no-repeat fixed;
+    filter: grayscale(0%) sepia(0%) invert(0%) brightness(80%) contrast(119%) saturate(110%);
+    margin-bottom: 10px;
+}
+.da-form .da-webkit {
+    background-color: var(--input-bg);
+}
 /*---  ---*/
 
 
@@ -244,12 +269,12 @@
 .da-clickable > .da-header,
 .da-privateChannels > .da-searchBar {
     border-top-left-radius: 10px;
-    border-top: 1px solid var(--color-blue);
-    border-left: 1px solid var(--color-blue);
+    border-top: var(--base-border);
+    border-left: var(--base-border);
 }
 .da-themed.da-container,
 .da-videoControls .da-container.da-transparent {
-    border-top: 1px solid var(--color-blue);
+    border-top: var(--base-border);
 }
 .da-themed.da-container {
     margin-bottom: 1px;
@@ -260,7 +285,7 @@
 
 .da-sidebar .da-scroller,
 .da-sidebar .da-panels {
-    border-left: 1px solid var(--color-blue);
+    border-left: var(--base-border);
 }
 /*--- ---*/
 
