@@ -24,11 +24,12 @@
     --channel-padding: 6px;
     --url-color:          var(--main-color);
 
-    --sidebar-top-color:    #2f313696;
-    --sidebar-mid-color:    #2f313696;
-    --sidebar-bottom-color: #222325a4;
+    --sidebar-top-color:    #27282996;
+    --sidebar-mid-color:    #20202096;
+    --sidebar-bottom-color: #1f1f20a4;
+    --chat-color:           #2020207c;
     
-    --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+    --background-image: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true);
 }
 
 .da-titleBar{
@@ -42,11 +43,13 @@
 }
 .da-bg{
 	background: var(--background-image) center/cover no-repeat fixed;
-	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
-	filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(115%) blur(3px);
+	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(110%) blur(2px);
+	filter: grayscale(0%) sepia(0%) invert(0%) brightness(100%) contrast(119%) saturate(110%) blur(2px);
 	z-index: -9999;
 }
-/*--- --- Top Bar (windows) --- ---*/
+
+
+/*--- --- TOP BAR (windows) --- ---*/
 .da-winButtonClose {
     background-color: #B80B336c;
     border-top-right-radius: 8px;
@@ -184,7 +187,7 @@
     text-shadow: 0 0 5px var(--channel-unread);
 }
 .modeUnread-1qO3K1 .da-unread {
-    background: var(--color-light-blue);
+    background: var(--color-blue);
 }
 
 /*- Channel selected -*/
@@ -195,6 +198,28 @@
 }
 .modeSelected-346R90 .da-content {
     background: var(--color-gold);
+}
+/*---  ---*/
+
+/*--- --- CHAT --- ---*/
+/*- New Messages Barr -*/
+.da-newMessagesBar,
+#---new-messages-bar .da-unreadPill {
+    background: var(--color-light-red)
+}
+
+#---new-messages-bar .da-content,
+#---new-messages-bar .da-unreadPillCap .da-unreadPillCapStroke {
+    color: var(--color-light-red);
+    fill: var(--color-light-red);
+}
+#---new-messages-bar {
+    border-color: var(--color-light-red);
+}
+
+/*- Chat -*/
+.da-chat {
+    background: var(--chat-color);
 }
 /*---  ---*/
 
