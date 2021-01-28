@@ -39,6 +39,7 @@
     
     --home-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true);
     --home-bg:          var(--color-pink);
+    --pop-up-bg:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit.jpg?raw=true);
     --background-image: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true);
     --background-style: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
     --inputbar-style:   grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%);
@@ -187,6 +188,10 @@ a.da-anchor:hover {
 }
 .da-upperBadge .da-iconBadge svg {
     color: black;
+}
+
+.da-live {
+    background-color:  var(--color-light-red) !important;
 }
 /*---  ---*/
 
@@ -388,8 +393,22 @@ a.da-anchor:hover {
     background: var(--color-light-pink);
 }
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-attachmentContainer .da-attachment {
-    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit.jpg?raw=true) center/cover no-repeat;
+    background: var(--pop-up-bg) center/cover no-repeat;
     opacity: 0.1 !important;
+}
+/*---  ---*/
+
+
+/*--- --- Popups --- ---*/
+/*- File Upload -*/
+#app-mount .da-uploadModal {
+    background: var(--pop-up-bg) bottom center/cover no-repeat;
+}
+#app-mount .da-inner .da-channelTextAreaUpload .da-webkit{
+    background: #8f8f8f54;
+}
+#app-mount .da-footer {
+    background:#0000007c
 }
 /*---  ---*/
 
