@@ -20,7 +20,10 @@
     --channel-unread:     var(--color-yellow);
     --channel-hover:      var(--color-yellow);
     --channel-hover-bg: #b8aa0b7f;
-	--channel-color:    #ffffff5e;
+    --channel-color:    #ffffff5e;
+    
+    --muted-hover:        var(--color-gold);
+    --muted-hover-bg:   #ffffff1a;
 	--muted-color:      #ffffff1a;
     --channel-text-selected: #fff;
     --channel-padding: 6px;
@@ -116,11 +119,16 @@
 }
 
 .da-listItemWrapper .da-circleButtonMask .da-circleIconButton{
-    color: var(--color-blue);
+    color: var(--color-light-pink);
+    background-color: #ce65c55d;
 }
 .da-listItemWrapper .da-circleButtonMask:hover .da-circleIconButton{
+    color: var(--color-light-blue) !important;
+    background: var(--color-pink) !important;
+}
+.da-listItemWrapper .da-circleIconButton.da-selected {
     color: var(--color-yellow);
-    background: var(--color-gold)
+    background-color: var(--color-light-red);
 }
 
 .da-tutorialContainer .da-childWrapper{
@@ -160,6 +168,26 @@
 .da-sidebar .da-container {
     background-color: transparent;
 }
+a.da-anchor {
+    color: var(--color-light-pink);
+}
+a.da-anchor:hover {
+    color: var(--color-light-blue)
+}
+
+.da-numberBadge.da-base {
+    background-color: transparent !important;
+    border-radius: 0px;
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true) center !important;
+}
+.da-upperBadge .da-iconBadge {
+    background-color: transparent !important;
+    border-radius: 0px;
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true) center !important;
+}
+.da-upperBadge .da-iconBadge svg {
+    color: black;
+}
 /*---  ---*/
 
 
@@ -171,7 +199,9 @@
 /*--- --- CHANNELS --- ---*/
 .da-sidebar .da-header .da-name,
 .da-sidebar .da-header .da-button{
-    color: var(--color-light-blue)
+    font-size: 20px;
+    color: var(--color-light-blue);
+    text-shadow: 0 0 7px var(--color-light-blue);
 }
 
 /*- Channel Category and +button (hover) -*/
@@ -188,7 +218,7 @@
 .da-content .da-name {
     color: var(--channel-color);
 }
-.da-iconContainer {
+.da-title .da-iconContainer {
     margin-right: 0px;
 }
 .da-content .da-name {
@@ -219,9 +249,24 @@
 .modeSelected-346R90 .da-icon,
 .modeSelected-346R90 .da-children .da-actionIcon {
     color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
 }
 .modeSelected-346R90 .da-content {
     background: var(--color-gold);
+}
+
+/*- Channel muted -*/
+.modeMuted-onO3r- .da-name,
+.modeMuted-onO3r- .da-icon {
+    color: var(--muted-color);
+}
+.modeMuted-onO3r- .da-content:hover .da-name,
+.modeMuted-onO3r- .da-content:hover .da-icon {
+    color: var(--muted-hover);
+    text-shadow: 0 0 5px var(--muted-hover);
+}
+.modeMuted-onO3r- .da-content:hover {
+    background-color: var(--muted-hover-bg);
 }
 /*---  ---*/
 
@@ -255,6 +300,15 @@
     right: var(--input-margin);
 }
 
+.da-divider.da-hasContent {
+    border-color: rgb(97, 212, 218);
+}
+.da-divider.da-hasContent span{
+    color: #4bf6ff;
+    background: var(--background-image) center/cover no-repeat fixed;
+    filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
+}
+
 /*- Chat -*/
 .da-chat {
     background: var(--chat-color);
@@ -269,6 +323,9 @@
 }
 .da-form > div {
     border-radius: 9px;
+}
+.da-attachButton svg path{
+    fill: var(--color-pink)
 }
 .da-form .da-channelTextArea {
     background: var(--background-image) center/cover no-repeat fixed;
@@ -295,8 +352,9 @@
 .da-typing.da-base .da-text > strong {
     color: var(--color-light-red)
 }
-.da-typing.da-base .da-dots circle:nth-of-type(1){
-    color: var(--color-light-blue)
+
+.da-typing.da-base g:nth-of-type(1){
+    color: var(--color-light-blue);
 }
 .da-typing.da-base .da-dots circle:nth-of-type(2){
     color: var(--color-light-red)
@@ -310,6 +368,10 @@
 }
 .da-form .da-textAreaSlate .da-placeholder{
     color: var(--color-light-pink)
+}
+
+.da-message .da-markup {
+    text-shadow: 0 0 3px #dcddde;
 }
 /*---  ---*/
 
@@ -340,6 +402,30 @@
 .da-themed.da-container,
 .da-videoControls .da-container.da-transparent {
     border-top: var(--base-border);
+    background: rgb(0, 0, 0, 0.4)
+}
+.da-themed.da-container .da-children::after {
+    background: transparent
+}
+.da-themed.da-container .da-icon,
+.da-themed.da-container .da-title {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+}
+.da-themed.da-container .da-iconWrapper {
+    margin-right: 0px;
+}
+.da-themed.da-container .da-title {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+.da-title.da-themed svg span{
+    background-color: var(--color-light-red)
+}
+
+.da-themed.da-container::after {
+    color: transparent;
 }
 .da-themed.da-container {
     margin-bottom: 1px;
@@ -347,6 +433,8 @@
 .da-clickable .da-header {
     height: 49px;
 }
+
+
 
 .da-sidebar .da-scroller,
 .da-sidebar .da-panels {
