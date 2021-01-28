@@ -373,6 +373,24 @@ a.da-anchor:hover {
 .da-message .da-markup {
     text-shadow: 0 0 3px #dcddde;
 }
+
+/*- Loading Messages -*/
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) {
+    background: transparent;
+}
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-wrapper.da-cozy {
+    background-color: transparent;
+}
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-avatar {
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true) center/cover no-repeat
+}
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-header .da-blob {
+    background: var(--color-light-pink);
+}
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-attachmentContainer .da-attachment {
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit.jpg?raw=true) center/cover no-repeat;
+    opacity: 0.1 !important;
+}
 /*---  ---*/
 
 
