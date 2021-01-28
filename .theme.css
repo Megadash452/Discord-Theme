@@ -279,7 +279,8 @@ a.da-anchor:hover {
 /*- New Messages Barr -*/
 .da-newMessagesBar,
 #---new-messages-bar .da-unreadPill {
-    background: var(--color-light-red)
+    color: var(--color-light-blue);
+    background: var(--color-light-red);
 }
 
 #---new-messages-bar .da-content,
@@ -379,6 +380,14 @@ a.da-anchor:hover {
     text-shadow: 0 0 3px #dcddde;
 }
 
+/*- Reply -*/
+.da-channelTextArea .da-container {
+    background: var(--pop-up-bg) center top;
+}
+.da-channelTextArea .da-container .da-name {
+    color: var(--color-yellow);
+}
+
 /*- Loading Messages -*/
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) {
     background: transparent;
@@ -407,8 +416,14 @@ a.da-anchor:hover {
 #app-mount .da-inner .da-channelTextAreaUpload .da-webkit{
     background: #8f8f8f54;
 }
+#app-mount .da-uploadModal .da-inner {
+    background: #00000088;
+}
+#app-mount .da-uploadModal .da-comment .da-inner {
+    background: transparent;
+}
 #app-mount .da-footer {
-    background:#0000007c
+    background:#000000cc
 }
 /*---  ---*/
 
