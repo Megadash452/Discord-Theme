@@ -331,6 +331,25 @@ a.da-anchor:hover {
     border-top: var(--base-border);
     background: rgba(0, 0, 0, 0.4);
 }
+.da-chat .da-channelName div.da-input {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+    font-size: 20px;
+    margin: 0px;
+}
+.da-themed.da-container .da-title {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+}
+.da-themed.da-container .da-iconWrapper {
+    margin-right: 0px;
+}
+.da-themed.da-container .da-title {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+
 .da-themed.da-container .da-children::after {
     background: transparent
 }
@@ -351,7 +370,10 @@ a.da-anchor:hover {
     background-color: var(--color-light-red)
 }
 .da-chat .da-wrapper.da-video {
-    background: var(--pop-up-bg) center/cover no-repeat;
+    background: var(--pop-up-bg) center bottom/cover no-repeat;
+}
+.da-chat .da-wrapper.da-video .da-root{
+    background-color: rgb(0, 0, 0, 0.7);
 }
 .da-videoControls .da-quickSelectLabel {
     height: 15px;
