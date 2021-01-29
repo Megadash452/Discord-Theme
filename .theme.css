@@ -362,7 +362,7 @@ a.da-anchor:hover {
     color: var(--color-yellow)
 }
 .da-chat .da-wrapper {
-    
+
 }
 .da-wrapper.da-video .da-tile .da-videoWrapper {
     background-color: #00000090;
@@ -471,6 +471,7 @@ a.da-anchor:hover {
 }
 #app-mount .da-uploadModal .da-inner {
     background: #00000088;
+    margin: 0px;
 }
 #app-mount .da-uploadModal .da-comment .da-inner {
     background: transparent;
