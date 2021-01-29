@@ -29,7 +29,7 @@
     --channel-padding: 6px;
     --url-color:          var(--main-color);
 
-    --base-border: 1px solid #58AAFC6a;
+    --base-border: 0px solid /*#58AAFC6a*/;
     --sidebar-top-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-mid-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-bottom-color: rgba(0, 0, 0, 0.7)/*rgba(49, 22, 59, 0.7)*/;
@@ -171,6 +171,9 @@ a.da-anchor:hover {
 }
 .da-upperBadge .da-iconBadge svg {
     color: #3a2c55;
+}
+.da-base .da-notice {
+    background-color: var(--color-gold);
 }
 
 .da-live {
@@ -350,25 +353,6 @@ a.da-anchor:hover {
     padding: 8px;
 }
 
-.da-themed.da-container .da-children::after {
-    background: transparent
-}
-.da-themed.da-container .da-icon,
-.da-themed.da-container .da-title {
-    color: var(--color-light-pink);
-    text-shadow: 0 0 7px var(--color-light-pink);
-}
-.da-themed.da-container .da-iconWrapper {
-    margin-right: 0px;
-}
-.da-themed.da-container .da-title {
-    font-size: 20px;
-    margin: 0px;
-    padding: 8px;
-}
-.da-title.da-themed svg span{
-    background-color: var(--color-light-red)
-}
 .da-chat .da-wrapper.da-video {
     background: var(--pop-up-bg) center bottom/cover no-repeat;
 }
@@ -388,6 +372,27 @@ a.da-anchor:hover {
 }
 .da-wrapper.da-video .da-tile .da-videoWrapper {
     background-color: #00000090;
+}
+
+/*- CHannel Info bar -*/
+.da-themed.da-container .da-children::after {
+    background: transparent
+}
+.da-themed.da-container .da-icon,
+.da-themed.da-container .da-title {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+}
+.da-themed.da-container .da-iconWrapper {
+    margin-right: 0px;
+}
+.da-themed.da-container .da-title {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+.da-title.da-themed svg span{
+    background-color: var(--color-light-red)
 }
 
 /*- Chat -*/
@@ -453,6 +458,23 @@ a.da-anchor:hover {
 
 .da-message .da-markup {
     text-shadow: 0 0 3px #dcddde;
+}
+.da-message.da-mentioned {
+    position: absolute;
+}
+.da-message.da-mentioned::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-left: 3px solid var(--color-yellow);
+}
+.da-messageContent .mention {
+    text-shadow: 0px, 0px 0px;
 }
 
 /*- Reply -*/
