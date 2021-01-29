@@ -29,7 +29,7 @@
     --channel-padding: 6px;
     --url-color:          var(--main-color);
 
-    --base-border: 1px solid transparent/*#58AAFC6a*/;
+    --base-border: 1px solid #58AAFC6a;
     --sidebar-top-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-mid-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-bottom-color: rgba(0, 0, 0, 0.7)/*rgba(49, 22, 59, 0.7)*/;
@@ -147,27 +147,10 @@
 .da-numberBadge {
     background: var(--color-light-red) !important;
 }
-.da-unreadBar {
-    background-color: #fa7ce79a;
-}
-
-.da-sidebar .da-searchBar,
-.da-sidebar .da-header {
-    background: var(--sidebar-top-color);
-}
-.da-base .da-sidebar .da-scroller {
-    background: var(--sidebar-mid-color) !important;
-}
-.da-sidebar .da-panels {
-    background: var(--sidebar-bottom-color);
-}
 
 .da-sidebar .da-searchBarComponent {
     background: var(--sidebar-bottom-color);
     border: 1px solid #0a0a0a;
-}
-.da-sidebar .da-container {
-    background-color: transparent;
 }
 a.da-anchor {
     color: var(--color-light-pink);
@@ -187,7 +170,7 @@ a.da-anchor:hover {
     background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true) center !important;
 }
 .da-upperBadge .da-iconBadge svg {
-    color: black;
+    color: #3a2c55;
 }
 
 .da-live {
@@ -196,17 +179,42 @@ a.da-anchor:hover {
 /*---  ---*/
 
 
-/*--- --- Direct Messages--- ---*/
-
-/*---  ---*/
-
-
-/*--- --- CHANNELS --- ---*/
+/*--- --- CHANNELS & DMs --- ---*/
+.da-sidebar nav.da-container,
+.da-sidebar .da-privateChannels {
+    background-color: var(--sidebar-mid-color)/*transparent*/;
+    border-top-left-radius: 10px;
+    border-top: var(--base-border);
+    border-left: var(--base-border);
+}
+.da-sidebar .da-bannerImage {
+    border-top-left-radius: 9px;
+}
 .da-sidebar .da-header .da-name,
-.da-sidebar .da-header .da-button{
+.da-sidebar .da-header .da-button {
     font-size: 20px;
     color: var(--color-light-blue);
     text-shadow: 0 0 7px var(--color-light-blue);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.da-sidebar .da-searchBar,
+.da-sidebar .da-header {
+    background: transparent/*var(--sidebar-top-color)*/;
+}
+.da-base .da-sidebar .da-scroller {
+    background: transparent/*var(--sidebar-mid-color)*/;
+}
+.da-sidebar .da-panels {
+    background: var(--sidebar-bottom-color);
+}
+.da-sidebar .da-panels {
+    border-left: var(--base-border);
+}
+
+.da-unreadBar {
+    background-color: #fa7ce79a;
 }
 
 /*- Channel Category and +button (hover) -*/
@@ -219,7 +227,7 @@ a.da-anchor:hover {
 }
 
 /*- Channel color -*/
-.da-content .da-icon,
+.da-sidebar .da-content .da-icon,
 .da-content .da-name {
     color: var(--channel-color);
 }
@@ -281,12 +289,14 @@ a.da-anchor:hover {
 #---new-messages-bar .da-unreadPill {
     color: var(--color-light-blue);
     background: var(--color-light-red);
+    filter: brightness(100%)
 }
 
 #---new-messages-bar .da-content,
 #---new-messages-bar .da-unreadPillCap .da-unreadPillCapStroke {
     color: var(--color-light-red);
     fill: var(--color-light-red);
+    filter: brightness(100%)
 }
 #---new-messages-bar {
     border-color: var(--color-light-red);
@@ -313,6 +323,49 @@ a.da-anchor:hover {
     color: #4bf6ff;
     background: var(--background-image) center/cover no-repeat fixed;
     filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
+}
+
+/*- On Call -*/
+.da-themed.da-container,
+.da-videoControls .da-container.da-transparent {
+    border-top: var(--base-border);
+    background: rgba(0, 0, 0, 0.4);
+}
+.da-themed.da-container .da-children::after {
+    background: transparent
+}
+.da-themed.da-container .da-icon,
+.da-themed.da-container .da-title {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+}
+.da-themed.da-container .da-iconWrapper {
+    margin-right: 0px;
+}
+.da-themed.da-container .da-title {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+.da-title.da-themed svg span{
+    background-color: var(--color-light-red)
+}
+.da-chat .da-wrapper.da-video {
+    background: var(--pop-up-bg) center/cover no-repeat;
+}
+.da-videoControls .da-quickSelectLabel {
+    height: 15px;
+}
+.da-videoControls .da-quickSelectValue,
+.da-videoControls .da-quickSelectArrow {
+    height: 15px;
+    color: var(--color-yellow)
+}
+.da-chat .da-wrapper {
+    
+}
+.da-wrapper.da-video .da-tile .da-videoWrapper {
+    background-color: #00000090;
 }
 
 /*- Chat -*/
@@ -429,7 +482,6 @@ a.da-anchor:hover {
 
 
 /*--- --- s --- ---*/
-.da-privateChannels,
 .da-sidebar,
 .da-base > .da-content,
 .da-base,
@@ -445,37 +497,6 @@ a.da-anchor:hover {
     background-color: transparent;
 }
 
-.da-clickable > .da-header,
-.da-privateChannels > .da-searchBar {
-    border-top-left-radius: 10px;
-    border-top: var(--base-border);
-    border-left: var(--base-border);
-}
-.da-themed.da-container,
-.da-videoControls .da-container.da-transparent {
-    border-top: var(--base-border);
-    background: rgb(0, 0, 0, 0.4)
-}
-.da-themed.da-container .da-children::after {
-    background: transparent
-}
-.da-themed.da-container .da-icon,
-.da-themed.da-container .da-title {
-    color: var(--color-light-pink);
-    text-shadow: 0 0 7px var(--color-light-pink);
-}
-.da-themed.da-container .da-iconWrapper {
-    margin-right: 0px;
-}
-.da-themed.da-container .da-title {
-    font-size: 20px;
-    margin: 0px;
-    padding: 8px;
-}
-.da-title.da-themed svg span{
-    background-color: var(--color-light-red)
-}
-
 .da-themed.da-container::after {
     color: transparent;
 }
@@ -486,12 +507,6 @@ a.da-anchor:hover {
     height: 49px;
 }
 
-
-
-.da-sidebar .da-scroller,
-.da-sidebar .da-panels {
-    border-left: var(--base-border);
-}
 /*--- ---*/
 
 
