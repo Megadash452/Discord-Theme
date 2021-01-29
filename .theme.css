@@ -456,26 +456,6 @@ a.da-anchor:hover {
     color: var(--color-light-pink)
 }
 
-.da-message .da-markup {
-    text-shadow: 0 0 3px #dcddde;
-}
-.da-message.da-mentioned {
-    position: absolute;
-}
-.da-message.da-mentioned::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-left: 3px solid var(--color-yellow);
-}
-.da-messageContent .mention {
-    text-shadow: 0px, 0px 0px;
-}
 
 /*- Reply -*/
 .da-channelTextArea .da-container {
