@@ -4,6 +4,10 @@
  * @version 1
  * @description Celeste theme.
  */
+ @font-face {
+    font-family: 'Renogare';
+    src: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Renogare-Regular.woff2?raw=true) format('woff2');
+}
 
  :root {
     /*-- COLORS --*/
@@ -159,6 +163,11 @@ a.da-anchor:hover {
     color: var(--color-light-blue)
 }
 
+/*- Font -*/
+.da-chat .da-message .da-username {
+    font-family: 'Renogare', Arial;
+}
+
 .da-numberBadge.da-base {
     background-color: transparent !important;
     border-radius: 0px;
@@ -228,6 +237,13 @@ a.da-anchor:hover {
 .da-sidebar .da-panels {
     background: var(--sidebar-bottom-color);
     border-left: transparent/*var(--base-border)*/;
+}
+.da-sidebar .da-scroller::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: var(--color-light-blue);
+    min-height: 40px;
 }
 
 .da-unreadBar {
