@@ -456,6 +456,21 @@ a.da-anchor:hover {
     color: var(--color-light-pink)
 }
 
+.da-message.da-mentioned::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+
+    background: var(--pop-up-bg) center center/cover no-repeat;
+    opacity: 60%
+}
+.da-message.da-mentioned {
+    border-left: 2px solid var(--color-yellow);
+}
+.da-chat .da-messagesWrapper .da-scrollerContent {
+    position: relative
+}
+
 
 /*- Reply -*/
 .da-channelTextArea .da-container {
