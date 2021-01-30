@@ -185,7 +185,7 @@ a.da-anchor:hover {
 /*--- --- CHANNELS & DMs --- ---*/
 .da-sidebar nav.da-container,
 .da-sidebar .da-privateChannels {
-    background-color: var(--sidebar-mid-color)/*transparent*/;
+    background-color: /*var(--sidebar-mid-color)*/transparent;
     border-top-left-radius: 10px;
     border-top: var(--base-border);
     border-left: var(--base-border);
@@ -203,17 +203,31 @@ a.da-anchor:hover {
     padding-bottom: 10px;
 }
 .da-sidebar .da-searchBar,
-.da-sidebar .da-header {
-    background: transparent/*var(--sidebar-top-color)*/;
+.da-sidebar .da-header::before {
+    background: var(--sidebar-top-color);
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
 }
-.da-base .da-sidebar .da-scroller {
-    background: transparent/*var(--sidebar-mid-color)*/;
+.da-sidebar::before {
+    background: /*transparent*/var(--sidebar-mid-color);
+    content: "";
+    position: absolute;
+    top: 49px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    width: 240px;
+    height: 87.3%;
 }
 .da-sidebar .da-panels {
     background: var(--sidebar-bottom-color);
-}
-.da-sidebar .da-panels {
-    border-left: var(--base-border);
+    border-left: transparent/*var(--base-border)*/;
 }
 
 .da-unreadBar {
@@ -322,7 +336,7 @@ a.da-anchor:hover {
 .da-divider.da-hasContent {
     border-color: rgb(97, 212, 218);
 }
-.da-divider.da-hasContent span{
+.da-divider.da-hasContent span {
     color: #4bf6ff;
     background: var(--background-image) center/cover no-repeat fixed;
     filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
@@ -374,7 +388,7 @@ a.da-anchor:hover {
     background-color: #00000090;
 }
 
-/*- CHannel Info bar -*/
+/*- Channel Info bar -*/
 .da-themed.da-container .da-children::after {
     background: transparent
 }
@@ -398,6 +412,25 @@ a.da-anchor:hover {
 /*- Chat -*/
 .da-chat {
     background: var(--chat-color);
+}
+.da-chat .da-message .da-messageContent,
+.da-chat .da-message .da-headerText .da-username,
+.da-chat .da-divider .da-content {
+    text-shadow: 0px 0px 3px;
+}
+.da-chat .da-message .da-buttons .da-wrapper::before {
+    background: var(--background-image) center/cover no-repeat fixed;
+    filter: var(--inputbar-style);
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+
+    width: 100%;
+    height: 100%
 }
 
 .da-form::before {
