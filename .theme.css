@@ -152,12 +152,12 @@
 .numberBadge-2s8kKX {
     background-color: transparent !important;
     border-radius: 0px;
-    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true) center !important;
+    background: var(--ping-icon) center/cover !important;
 }
 .upperBadge-2XnnGB .iconBadge-2wi9r4 {
     background-color: transparent !important;
     border-radius: 0px;
-    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true) center !important;
+    background: var(--other-icon) center/cover !important;
 }
 .upperBadge-2XnnGB .iconBadge-2wi9r4 svg {
     color: #3a2c55;
@@ -212,7 +212,7 @@ a.anchor-3Z-8Bb:hover {
 .sidebar-2K8pFh .scroller-RmtA4e {
     background: transparent/*var(--sidebar-mid-color)*/;
 }
-.sidebar-2K8pFh .da-panels {
+.sidebar-2K8pFh .panels-j1Uci_ {
     background: var(--sidebar-bottom-color);
     border-left: var(--base-border);
 }
@@ -231,18 +231,18 @@ a.anchor-3Z-8Bb:hover {
 .sidebar-2K8pFh .scroller-RmtA4e .content-3YMskv .content-1x5b-n .icon-1DeIlz {
     color: var(--channel-color);
 }
-.da-title .da-iconContainer {
+/*.sidebar-2K8pFh .containerDefault--pIXnN .iconContainer-1BBaeJ {
     margin-right: 0px;
-}
-.da-content .da-name {
+}*/
+.content-1x5b-n .name-23GUGE {
     padding-left: var(--channel-padding);
 }
-.content-1x5b-n.da-content:hover {
+.iconVisibility-sTNpHs:hover .content-1x5b-n{
     background: var(--channel-hover-bg);
 }
-.content-1x5b-n.da-content:hover .da-name,
-.content-1x5b-n.da-content:hover .da-icon,
-.content-1x5b-n.da-content .da-iconBase:hover .da-actionIcon {
+.content-1x5b-n:hover .da-name,
+.content-1x5b-n:hover .da-icon,
+.content-1x5b-n .da-iconBase:hover .da-actionIcon {
     color: var(--channel-hover);
     text-shadow: 0 0 5px var(--channel-hover);
 }
