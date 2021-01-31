@@ -4,10 +4,6 @@
  * @version 1
  * @description Celeste theme.
  */
- @font-face {
-    font-family: 'Renogare';
-    src: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Renogare-Regular.woff2?raw=true) format('woff2');
-}
 
  :root {
     /*-- COLORS --*/
@@ -41,7 +37,9 @@
     --input-bg:             #6464644d;
     --input-margin: 20px;
     
+    --ping-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true);
     --home-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true);
+    --other-icon:       url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true);
     --home-bg:          var(--color-pink);
     --pop-up-bg:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true);
     --background-image: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true);
@@ -49,46 +47,46 @@
     --inputbar-style:   grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%);
 }
 
-.da-titleBar{
+.typeWindows-1za-n7 {
     background-color: rgba(0, 0, 0, 0);
-    margin: 0px;
+    margin: 0;
     padding-top: 4px;
 }
 
 .appMount-3lHmkl {
 	background: rgb(0, 0, 0, 0.6);
 }
-.da-bg{
+.bg-h5JY_x {
 	background: var(--background-image) center/cover no-repeat fixed;
-	-webkit-filter: var(--background-style);
-	filter: var(--background-style);
+	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
+	filter: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
 	z-index: -9999;
 }
 
 
 /*--- --- TOP BAR (windows) --- ---*/
-.da-winButtonClose {
+.winButtonClose-1HsbF- {
     background-color: #B80B336c;
     border-top-right-radius: 8px;
 }
-.da-winButtonMinMax:nth-of-type(3) {
+.winButtonMinMax-PBQ2gm:nth-of-type(3) {
     background-color: #B8A90B6a;
 }
-.da-winButtonMinMax:nth-of-type(4) {
+.winButtonMinMax-PBQ2gm:nth-of-type(4) {
     background-color: #58AAFC6a;
     border-top-left-radius: 8px;
 }
 
-.da-winButtonClose:hover {
+.winButtonClose-1HsbF-:hover {
     background-color: #FF24576c;
-    border-top-right-radius: 0%;
+    border-top-right-radius: 0;
 }
-.da-winButtonMinMax:nth-of-type(3):hover {
+.winButtonMinMax-PBQ2gm:nth-of-type(3):hover {
     background-color: #fffb246a;
 }
-.da-winButtonMinMax:nth-of-type(4):hover {
+.winButtonMinMax-PBQ2gm:nth-of-type(4):hover {
     background-color: #7ff2f86a;
-    border-top-left-radius: 0%;
+    border-top-left-radius: 0;
 }
 /*---  ---*/
 
@@ -102,54 +100,69 @@
 
 
 /*--- --- Server List --- ---*/
-.da-homeIcon {
+.homeIcon-tEMBK1 {
     background: var(--home-icon) center/cover no-repeat;
     width: 100%;
     height: 100%;
 }
-.da-homeIcon > path {
+.homeIcon-tEMBK1 > path {
     display: none;
 }
+.tutorialContainer-1v44GL .childWrapper-anI2G9 {
+    background-color: transparent;
+}
+.tutorialContainer-1v44GL .selected-bZ3Lue .childWrapper-anI2G9 {
+    background-color: var(--home-bg);
+    color: #ffffff;
+}
 
-.da-baseLayer > nav {
+.baseLayer-35bLyl > nav {
     background-color: aliceblue;
 }
 
-.da-tree .da-listItem .da-wrapper .da-item {
+.guilds-1SWlCJ .scroller-2TZvBN .listItem-2P_4kh .pill-31IEus .item-2hkk8m {
     background-color: var(--color-light-pink);
 }
 
-.da-expandedFolderIconWrapper > svg {
+.expandedFolderIconWrapper-1xLaU- > svg {
     color: var(--color-blue) !important;
 }
 
-.da-listItemWrapper .da-circleButtonMask .da-circleIconButton{
+.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN .circleIconButton-jET_ig {
     color: var(--color-light-pink);
     background-color: #ce65c55d;
 }
-.da-listItemWrapper .da-circleButtonMask:hover .da-circleIconButton{
+.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN:hover .circleIconButton-jET_ig {
     color: var(--color-light-blue) !important;
     background: var(--color-pink) !important;
 }
-.da-listItemWrapper .da-circleIconButton.da-selected {
+.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN .circleIconButton-jET_ig.selected-ugP_am {
     color: var(--color-yellow);
     background-color: var(--color-light-red);
-}
-
-.da-tutorialContainer .da-childWrapper{
-    background-color: transparent;
-}
-.da-tutorialContainer .da-selected .da-childWrapper{
-    background-color: var(--home-bg);
-    color: #ffffff;
 }
 /*---  ---*/
 
 
 /*--- --- App Base --- ---*/
 .da-mention.da-active,
-.da-numberBadge {
+.numberBadge-2s8kKX {
     background: var(--color-light-red) !important;
+}
+.numberBadge-2s8kKX {
+    background-color: transparent !important;
+    border-radius: 0px;
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true) center !important;
+}
+.upperBadge-2XnnGB .iconBadge-2wi9r4 {
+    background-color: transparent !important;
+    border-radius: 0px;
+    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true) center !important;
+}
+.upperBadge-2XnnGB .iconBadge-2wi9r4 svg {
+    color: #3a2c55;
+}
+.base-3dtUhz    .da-base .da-notice {
+    background-color: var(--color-gold);
 }
 
 .da-sidebar .da-searchBarComponent {
@@ -163,28 +176,6 @@ a.da-anchor:hover {
     color: var(--color-light-blue)
 }
 
-/*- Font -*/
-.da-chat .da-message .da-username {
-    font-family: 'Renogare', Whitney;
-}
-
-.da-numberBadge.da-base {
-    background-color: transparent !important;
-    border-radius: 0px;
-    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true) center !important;
-}
-.da-upperBadge .da-iconBadge {
-    background-color: transparent !important;
-    border-radius: 0px;
-    background: url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true) center !important;
-}
-.da-upperBadge .da-iconBadge svg {
-    color: #3a2c55;
-}
-.da-base .da-notice {
-    background-color: var(--color-gold);
-}
-
 .da-live {
     background-color:  var(--color-light-red) !important;
 }
@@ -194,7 +185,7 @@ a.da-anchor:hover {
 /*--- --- CHANNELS & DMs --- ---*/
 .da-sidebar nav.da-container,
 .da-sidebar .da-privateChannels {
-    background-color: /*var(--sidebar-mid-color)*/transparent;
+    background-color: var(--sidebar-mid-color)/*transparent*/;
     border-top-left-radius: 10px;
     border-top: var(--base-border);
     border-left: var(--base-border);
@@ -212,38 +203,17 @@ a.da-anchor:hover {
     padding-bottom: 10px;
 }
 .da-sidebar .da-searchBar,
-.da-sidebar .da-header::before {
-    background: var(--sidebar-top-color);
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: -1;
+.da-sidebar .da-header {
+    background: transparent/*var(--sidebar-top-color)*/;
 }
-.da-sidebar::before {
-    background: /*transparent*/var(--sidebar-mid-color);
-    content: "";
-    position: absolute;
-    top: 49px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-
-    width: 240px;
-    height: 87.3%;
+.da-base .da-sidebar .da-scroller {
+    background: transparent/*var(--sidebar-mid-color)*/;
 }
 .da-sidebar .da-panels {
     background: var(--sidebar-bottom-color);
-    border-left: transparent/*var(--base-border)*/;
 }
-.da-sidebar .da-scroller::-webkit-scrollbar-thumb {
-    background-clip: padding-box;
-    border: 2px solid transparent;
-    border-radius: 4px;
-    background-color: var(--color-light-blue);
-    min-height: 40px;
+.da-sidebar .da-panels {
+    border-left: var(--base-border);
 }
 
 .da-unreadBar {
@@ -352,7 +322,7 @@ a.da-anchor:hover {
 .da-divider.da-hasContent {
     border-color: rgb(97, 212, 218);
 }
-.da-divider.da-hasContent span {
+.da-divider.da-hasContent span{
     color: #4bf6ff;
     background: var(--background-image) center/cover no-repeat fixed;
     filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
@@ -404,7 +374,7 @@ a.da-anchor:hover {
     background-color: #00000090;
 }
 
-/*- Channel Info bar -*/
+/*- CHannel Info bar -*/
 .da-themed.da-container .da-children::after {
     background: transparent
 }
@@ -428,25 +398,6 @@ a.da-anchor:hover {
 /*- Chat -*/
 .da-chat {
     background: var(--chat-color);
-}
-.da-chat .da-message .da-messageContent,
-.da-chat .da-message .da-headerText .da-username,
-.da-chat .da-divider .da-content {
-    text-shadow: 0px 0px 3px;
-}
-.da-chat .da-message .da-buttons .da-wrapper::before {
-    background: var(--background-image) center/cover no-repeat fixed;
-    filter: var(--inputbar-style);
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-
-    width: 100%;
-    height: 100%
 }
 
 .da-form::before {
