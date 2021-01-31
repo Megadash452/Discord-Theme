@@ -120,7 +120,8 @@
     background-color: aliceblue;
 }
 
-.guilds-1SWlCJ .scroller-2TZvBN .listItem-2P_4kh .pill-31IEus .item-2hkk8m {
+.guilds-1SWlCJ .scroller-2TZvBN .pill-31IEus .item-2hkk8m,
+.guilds-1SWlCJ .scroller-2TZvBN .pill-2uzAFe .item-2hkk8m {
     background-color: var(--color-light-pink);
 }
 
@@ -144,7 +145,7 @@
 
 
 /*--- --- App Base --- ---*/
-.da-mention.da-active,
+.mention-1f5kbO.active-1SSsBb,
 .numberBadge-2s8kKX {
     background: var(--color-light-red) !important;
 }
@@ -161,40 +162,36 @@
 .upperBadge-2XnnGB .iconBadge-2wi9r4 svg {
     color: #3a2c55;
 }
-.base-3dtUhz    .da-base .da-notice {
+.base-3dtUhz .da-notice {        /* TODO: --- Find out what .nitce is --- */
     background-color: var(--color-gold);
 }
 
-.da-sidebar .da-searchBarComponent {
-    background: var(--sidebar-bottom-color);
-    border: 1px solid #0a0a0a;
-}
-a.da-anchor {
+a.anchor-3Z-8Bb {
     color: var(--color-light-pink);
 }
-a.da-anchor:hover {
+a.anchor-3Z-8Bb:hover {
     color: var(--color-light-blue)
 }
 
-.da-live {
+.live-vBWnV6 {
     background-color:  var(--color-light-red) !important;
 }
 /*---  ---*/
 
 
 /*--- --- CHANNELS & DMs --- ---*/
-.da-sidebar nav.da-container,
-.da-sidebar .da-privateChannels {
+.sidebar-2K8pFh > nav.container-3w7J-x,
+.sidebar-2K8pFh > nav.privateChannels-1nO12o {
     background-color: var(--sidebar-mid-color)/*transparent*/;
     border-top-left-radius: 10px;
     border-top: var(--base-border);
     border-left: var(--base-border);
 }
-.da-sidebar .da-bannerImage {
+.sidebar-2K8pFh .hasBanner-2SrLR3 .bannerImage-3KhIJ6 {
     border-top-left-radius: 9px;
 }
-.da-sidebar .da-header .da-name,
-.da-sidebar .da-header .da-button {
+.sidebar-2K8pFh .header-2V-4Sw .name-1jkAdW,
+.sidebar-2K8pFh .header-2V-4Sw .button-1w5pas {
     font-size: 20px;
     color: var(--color-light-blue);
     text-shadow: 0 0 7px var(--color-light-blue);
@@ -202,36 +199,36 @@ a.da-anchor:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.da-sidebar .da-searchBar,
-.da-sidebar .da-header {
+
+.sidebar-2K8pFh .searchBarComponent-32dTOx {
+    background: var(--sidebar-bottom-color);
+    border: 1px solid #0a0a0a;
+}
+.sidebar-2K8pFh .da-searchBar,
+.sidebar-2K8pFh .header-2V-4Sw {
     background: transparent/*var(--sidebar-top-color)*/;
 }
-.da-base .da-sidebar .da-scroller {
+
+.sidebar-2K8pFh .scroller-RmtA4e {
     background: transparent/*var(--sidebar-mid-color)*/;
 }
-.da-sidebar .da-panels {
+.sidebar-2K8pFh .da-panels {
     background: var(--sidebar-bottom-color);
-}
-.da-sidebar .da-panels {
     border-left: var(--base-border);
 }
 
-.da-unreadBar {
-    background-color: #fa7ce79a;
-}
-
 /*- Channel Category and +button (hover) -*/
-.containerDefault-3tr_sE .da-wrapper:hover .da-overflow,
-.containerDefault-3tr_sE .da-wrapper:hover .da-arrow.da-icon,
-.containerDefault-3tr_sE .da-children:hover .da-addButtonIcon,
-.containerDefault-3tr_sE .da-collapsed .da-overflow,
-.containerDefault-3tr_sE .da-collapsed .da-arrow.da-icon {
+.containerDefault-3tr_sE .wrapper-PY0fhH:hover .overflow-WK9Ogt,
+.containerDefault-3tr_sE .da-wrapper:hover .arrow-gKvcEx.icon-2yIBmh,
+.containerDefault-3tr_sE .children-L002ao:hover .addButton-3bLyEA,
+.containerDefault-3tr_sE .collapsed-2-tg8y .overflow-WK9Ogt,
+.containerDefault-3tr_sE .collapsed-2-tg8y .arrow-gKvcEx.icon-2yIBmh {
     color: var(--color-light-red)
 }
 
 /*- Channel color -*/
-.da-sidebar .da-content .da-icon,
-.da-content .da-name {
+.sidebar-2K8pFh .scroller-RmtA4e .content-3YMskv .content-1x5b-n .name-23GUGE,
+.sidebar-2K8pFh .scroller-RmtA4e .content-3YMskv .content-1x5b-n .icon-1DeIlz {
     color: var(--channel-color);
 }
 .da-title .da-iconContainer {
