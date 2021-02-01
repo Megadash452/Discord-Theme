@@ -225,7 +225,7 @@ a.anchor-3Z-8Bb:hover {
     border: 1px solid #0a0a0a;
 }
 
-.sidebar-2K8pFh .sidebar-2K8pFh {
+.sidebar-2K8pFh .scroller-RmtA4e {
     background: transparent/*var(--sidebar-mid-color)*/;
 }
 .sidebar-2K8pFh .panels-j1Uci_ {
@@ -243,73 +243,77 @@ a.anchor-3Z-8Bb:hover {
 }
 
 /*- Channel color -*/
-.sidebar-2K8pFh .content-1x5b-n .icon-1DeIlz,
-.sidebar-2K8pFh .content-1x5b-n .name-23GUGE {
+.content-1x5b-n .icon-1DeIlz,
+.content-1x5b-n .name-23GUGE,
+/*- Category Color -*/
+.containerDefault-3tr_sE .name-3l27Hl,
+.containerDefault-3tr_sE .addButtonIcon-2CbG1X {
     color: var(--channel-color);
+}
+.content-1x5b-n .iconContainer-1BBaeJ {
+    margin-right: 0px;
+}
+.content-1x5b-n .name-23GUGE,
+.containerDefault-3tr_sE .name-3l27Hl {
+    padding-left: var(--channel-padding);
+}
+.containerDefault--pIXnN .content-1x5b-n:hover {
+    background: var(--channel-hover-bg);
 }
 .content-1x5b-n:hover .name-23GUGE,
 .content-1x5b-n:hover .icon-1DeIlz,
-.content-1x5b-n .da-iconBase:hover .da-actionIcon {
+.content-1x5b-n .iconBase-3LOlfs:hover .actionIcon-PgcMM2 {
     color: var(--channel-hover);
     text-shadow: 0 0 5px var(--channel-hover);
-}
-.sidebar-2K8pFh .content-1x5b-n .da-iconContainer {
-    margin-right: 0px;
-}
-.content-1x5b-n .name-23GUGE {
-    padding-left: var(--channel-padding);
-}
-.content-1x5b-n.da-content:hover {
-    background: var(--channel-hover-bg);
 }
 
 /*- Channel unread -*/
 .modeUnread-1qO3K1 .name-23GUGE,
-.modeUnread-1qO3K1 .da-icon {
-    color: var(--channel-unread) !important;
+.modeUnread-1qO3K1 .icon-1DeIlz {
+    color: var(--channel-unread);
     text-shadow: 0 0 5px var(--channel-unread);
 }
-.modeUnread-1qO3K1 .da-unread {
+.modeUnread-1qO3K1 .unread-2lAfLh {
     background: var(--color-blue);
 }
 
 /*- Channel selected -*/
 .modeSelected-346R90 .name-23GUGE,
-.modeSelected-346R90 .da-icon,
-.modeSelected-346R90 .da-children .da-actionIcon {
+.modeSelected-346R90 .icon-1DeIlz,
+.modeSelected-346R90 .children-3rEycc .actionIcon-PgcMM2 {
     color: #ffffff;
     text-shadow: 0 0 5px #ffffff;
 }
-.modeSelected-346R90 .da-content {
+.modeSelected-346R90 .content-1x5b-n {
     background: var(--color-gold);
 }
 
 /*- Channel muted -*/
 .modeMuted-onO3r- .name-23GUGE,
-.modeMuted-onO3r- .da-icon {
+.modeMuted-onO3r- .icon-1DeIlz {
     color: var(--muted-color);
 }
-.modeMuted-onO3r- .da-content:hover .name-23GUGE,
-.modeMuted-onO3r- .da-content:hover .da-icon {
+.modeMuted-onO3r- .content-1x5b-n:hover .name-23GUGE,
+.modeMuted-onO3r- .content-1x5b-n:hover .icon-1DeIlz {
     color: var(--muted-hover);
     text-shadow: 0 0 5px var(--muted-hover);
 }
-.modeMuted-onO3r- .da-content:hover {
+.modeMuted-onO3r- .content-1x5b-n:hover {
     background-color: var(--muted-hover-bg);
 }
 /*---  ---*/
 
 /*--- --- CHAT --- ---*/
 /*- New Messages Barr -*/
-.da-newMessagesBar,
-#---new-messages-bar .da-unreadPill {
+.newMessagesBar-265mhP,
+#---new-messages-bar .unreadPill-2HyYtt {
     color: var(--color-light-blue);
     background: var(--color-light-red);
     filter: brightness(100%)
 }
 
-#---new-messages-bar .da-content,
-#---new-messages-bar .da-unreadPillCap .da-unreadPillCapStroke {
+#---new-messages-bar .content-1o0f9g,
+#---new-messages-bar .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg {
     color: var(--color-light-red);
     fill: var(--color-light-red);
     filter: brightness(100%)
@@ -318,24 +322,24 @@ a.anchor-3Z-8Bb:hover {
     border-color: var(--color-light-red);
 }
 
-.da-jumpToPresentBar {
+.jumpToPresentBar-G1R9s6 {
     background-color: var(--color-light-pink);
     opacity: 0.9;
 
     left: var(--input-margin);
     right: var(--input-margin);
 }
-.da-messagesErrorBar {
+.messagesErrorBar-nyJGU7 {
     background-color: var(--color-red);
 
     left: var(--input-margin);
     right: var(--input-margin);
 }
 
-.da-divider.da-hasContent {
+.divider-3_HH5L.hasContent-1_DUdQ {
     border-color: rgb(97, 212, 218);
 }
-.da-divider.da-hasContent span{
+.divider-3_HH5L.hasContent-1_DUdQ .content-1o0f9g{
     color: #4bf6ff;
     background: var(--background-image) center/cover no-repeat fixed;
     filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
@@ -521,7 +525,7 @@ a.anchor-3Z-8Bb:hover {
 
 
 /*--- --- s --- ---*/
-.sidebar-2K8pFh,
+.da-sidebar,
 .da-base > .da-content,
 .da-base,
 .da-baseLayer > .da-container,
