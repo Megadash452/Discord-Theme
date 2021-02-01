@@ -29,7 +29,7 @@
     --channel-padding: 6px;
     --url-color:          var(--main-color);
 
-    --base-border: 0px solid /*#58AAFC6a*/;
+    --base-border: 0px solid #58AAFC6a;
     --sidebar-top-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-mid-color:    rgba(0, 0, 0, 0.35)/*rgba(49, 22, 59, 0.35)*/;
     --sidebar-bottom-color: rgba(0, 0, 0, 0.7)/*rgba(49, 22, 59, 0.7)*/;
@@ -37,8 +37,8 @@
     --input-bg:             #6464644d;
     --input-margin: 20px;
     
-    --ping-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true);
     --home-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true);
+    --ping-icon:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true);
     --other-icon:       url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true);
     --home-bg:          var(--color-pink);
     --pop-up-bg:        url(https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true);
@@ -47,24 +47,25 @@
     --inputbar-style:   grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%);
 }
 
-.typeWindows-1za-n7 {
-    background-color: rgba(0, 0, 0, 0);
-    margin: 0;
-    padding-top: 4px;
-}
 
 .appMount-3lHmkl {
 	background: rgb(0, 0, 0, 0.6);
 }
 .bg-h5JY_x {
 	background: var(--background-image) center/cover no-repeat fixed;
-	-webkit-filter: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
-	filter: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px);
+	-webkit-filter: var(--background-style);
+	filter: var(--background-style);
 	z-index: -9999;
 }
 
 
 /*--- --- TOP BAR (windows) --- ---*/
+.titleBar-AC4pGV {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px;
+    padding-top: 4px;
+}
+
 .winButtonClose-1HsbF- {
     background-color: #B80B336c;
     border-top-right-radius: 8px;
@@ -79,14 +80,14 @@
 
 .winButtonClose-1HsbF-:hover {
     background-color: #FF24576c;
-    border-top-right-radius: 0;
+    border-top-right-radius: 0%;
 }
 .winButtonMinMax-PBQ2gm:nth-of-type(3):hover {
     background-color: #fffb246a;
 }
 .winButtonMinMax-PBQ2gm:nth-of-type(4):hover {
     background-color: #7ff2f86a;
-    border-top-left-radius: 0;
+    border-top-left-radius: 0%;
 }
 /*---  ---*/
 
@@ -100,28 +101,25 @@
 
 
 /*--- --- Server List --- ---*/
-.homeIcon-tEMBK1 {
+.tutorialContainer-1v44GL .homeIcon-tEMBK1 {
     background: var(--home-icon) center/cover no-repeat;
     width: 100%;
     height: 100%;
 }
-.homeIcon-tEMBK1 > path {
+.tutorialContainer-1v44GL .homeIcon-tEMBK1 > path {
     display: none;
 }
-.tutorialContainer-1v44GL .childWrapper-anI2G9 {
+.tutorialContainer-1v44GL .childWrapper-anI2G9{
     background-color: transparent;
 }
-.tutorialContainer-1v44GL .selected-bZ3Lue .childWrapper-anI2G9 {
+.tutorialContainer-1v44GL .selected-bZ3Lue .childWrapper-anI2G9{
     background-color: var(--home-bg);
     color: #ffffff;
 }
 
-.baseLayer-35bLyl > nav {
-    background-color: aliceblue;
-}
-
-.guilds-1SWlCJ .scroller-2TZvBN .pill-31IEus .item-2hkk8m,
-.guilds-1SWlCJ .scroller-2TZvBN .pill-2uzAFe .item-2hkk8m {
+ul.tree-3tCaw8 .listItem-2P_4kh > .pill-2uzAFe > .item-2hkk8m,
+ul.tree-3tCaw8 .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m,
+ul.tree-3tCaw8 .listItem-2P_4kh > .pill-1m5BUr > .item-2hkk8m {
     background-color: var(--color-light-pink);
 }
 
@@ -129,15 +127,15 @@
     color: var(--color-blue) !important;
 }
 
-.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN .circleIconButton-jET_ig {
+.listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN .circleIconButton-jET_ig {
     color: var(--color-light-pink);
     background-color: #ce65c55d;
 }
-.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN:hover .circleIconButton-jET_ig {
+.listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN:hover .circleIconButton-jET_ig {
     color: var(--color-light-blue) !important;
     background: var(--color-pink) !important;
 }
-.scroller-2TZvBN .listItemWrapper-3X98Pc .circleButtonMask-2VNJsN .circleIconButton-jET_ig.selected-ugP_am {
+.listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN .circleIconButton-jET_ig.selected-ugP_am {
     color: var(--color-yellow);
     background-color: var(--color-light-red);
 }
@@ -145,25 +143,43 @@
 
 
 /*--- --- App Base --- ---*/
-.mention-1f5kbO.active-1SSsBb,
-.numberBadge-2s8kKX {
-    background: var(--color-light-red) !important;
-}
 .numberBadge-2s8kKX {
     background-color: transparent !important;
     border-radius: 0px;
     background: var(--ping-icon) center/cover !important;
 }
-.upperBadge-2XnnGB .iconBadge-2wi9r4 {
+.numberBadge-2s8kKX {
+    width: 20px !important;
+}
+.lowerBadge-29hYVK {
+    position: absolute;
+    left: 30px;
+    top: 32px
+}
+
+.mention-1f5kbO.active-1SSsBb {
+    background: var(--color-light-red) !important;
+}
+
+.upperBadge-2XnnGB > .iconBadge-2wi9r4 {
     background-color: transparent !important;
     border-radius: 0px;
     background: var(--other-icon) center/cover !important;
 }
-.upperBadge-2XnnGB .iconBadge-2wi9r4 svg {
+.upperBadge-2XnnGB > .iconBadge-2wi9r4 {
+    width: 20px
+}
+.upperBadge-2XnnGB {
+    position: absolute;
+    left: 30px;
+    top: 1px
+}
+.upperBadge-2XnnGB > .iconBadge-2wi9r4 > svg {
+    width: 12px;
     color: #3a2c55;
 }
-.base-3dtUhz .da-notice {        /* TODO: --- Find out what .nitce is --- */
-    background-color: var(--color-gold);
+.da-base .da-notice {
+    background-color: green/*var(--color-gold)*/;
 }
 
 a.anchor-3Z-8Bb {
@@ -180,14 +196,14 @@ a.anchor-3Z-8Bb:hover {
 
 
 /*--- --- CHANNELS & DMs --- ---*/
-.sidebar-2K8pFh > nav.container-3w7J-x,
-.sidebar-2K8pFh > nav.privateChannels-1nO12o {
-    background-color: var(--sidebar-mid-color)/*transparent*/;
+.sidebar-2K8pFh nav.container-3w7J-x,
+.sidebar-2K8pFh nav.privateChannels-1nO12o {
+    background-color: var(--sidebar-mid-color);
     border-top-left-radius: 10px;
     border-top: var(--base-border);
     border-left: var(--base-border);
 }
-.sidebar-2K8pFh .hasBanner-2SrLR3 .bannerImage-3KhIJ6 {
+.sidebar-2K8pFh .bannerImage-3KhIJ6 {
     border-top-left-radius: 9px;
 }
 .sidebar-2K8pFh .header-2V-4Sw .name-1jkAdW,
@@ -200,49 +216,51 @@ a.anchor-3Z-8Bb:hover {
     padding-bottom: 10px;
 }
 
+.sidebar-2K8pFh .searchBar-6Kv8R2,
+.sidebar-2K8pFh .header-2V-4Sw {
+    background: transparent/*var(--sidebar-top-color)*/;
+}
 .sidebar-2K8pFh .searchBarComponent-32dTOx {
     background: var(--sidebar-bottom-color);
     border: 1px solid #0a0a0a;
 }
-.sidebar-2K8pFh .da-searchBar,
-.sidebar-2K8pFh .header-2V-4Sw {
-    background: transparent/*var(--sidebar-top-color)*/;
-}
 
-.sidebar-2K8pFh .scroller-RmtA4e {
+.sidebar-2K8pFh .da-scroller {
     background: transparent/*var(--sidebar-mid-color)*/;
 }
-.sidebar-2K8pFh .panels-j1Uci_ {
+.sidebar-2K8pFh .da-panels {
     background: var(--sidebar-bottom-color);
+}
+.sidebar-2K8pFh .da-panels {
     border-left: var(--base-border);
 }
 
 /*- Channel Category and +button (hover) -*/
 .containerDefault-3tr_sE .wrapper-PY0fhH:hover .overflow-WK9Ogt,
-.containerDefault-3tr_sE .da-wrapper:hover .arrow-gKvcEx.icon-2yIBmh,
-.containerDefault-3tr_sE .children-L002ao:hover .addButton-3bLyEA,
+.containerDefault-3tr_sE .wrapper-PY0fhH:hover .arrow-gKvcEx.icon-2yIBmh,
+.containerDefault-3tr_sE .children-L002ao:hover .addButtonIcon-2CbG1X,
 .containerDefault-3tr_sE .collapsed-2-tg8y .overflow-WK9Ogt,
 .containerDefault-3tr_sE .collapsed-2-tg8y .arrow-gKvcEx.icon-2yIBmh {
     color: var(--color-light-red)
 }
 
 /*- Channel color -*/
-.sidebar-2K8pFh .scroller-RmtA4e .content-3YMskv .content-1x5b-n .name-23GUGE,
-.sidebar-2K8pFh .scroller-RmtA4e .content-3YMskv .content-1x5b-n .icon-1DeIlz {
+.da-sidebar .da-content .da-icon,
+.da-content .da-name {
     color: var(--channel-color);
 }
-/*.sidebar-2K8pFh .containerDefault--pIXnN .iconContainer-1BBaeJ {
+.da-title .da-iconContainer {
     margin-right: 0px;
-}*/
-.content-1x5b-n .name-23GUGE {
+}
+.da-content .da-name {
     padding-left: var(--channel-padding);
 }
-.iconVisibility-sTNpHs:hover .content-1x5b-n{
+.content-1x5b-n.da-content:hover {
     background: var(--channel-hover-bg);
 }
-.content-1x5b-n:hover .da-name,
-.content-1x5b-n:hover .da-icon,
-.content-1x5b-n .da-iconBase:hover .da-actionIcon {
+.content-1x5b-n.da-content:hover .da-name,
+.content-1x5b-n.da-content:hover .da-icon,
+.content-1x5b-n.da-content .da-iconBase:hover .da-actionIcon {
     color: var(--channel-hover);
     text-shadow: 0 0 5px var(--channel-hover);
 }
@@ -350,6 +368,25 @@ a.anchor-3Z-8Bb:hover {
     padding: 8px;
 }
 
+.da-themed.da-container .da-children::after {
+    background: transparent
+}
+.da-themed.da-container .da-icon,
+.da-themed.da-container .da-title {
+    color: var(--color-light-pink);
+    text-shadow: 0 0 7px var(--color-light-pink);
+}
+.da-themed.da-container .da-iconWrapper {
+    margin-right: 0px;
+}
+.da-themed.da-container .da-title {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+.da-title.da-themed svg span{
+    background-color: var(--color-light-red)
+}
 .da-chat .da-wrapper.da-video {
     background: var(--pop-up-bg) center bottom/cover no-repeat;
 }
@@ -369,27 +406,6 @@ a.anchor-3Z-8Bb:hover {
 }
 .da-wrapper.da-video .da-tile .da-videoWrapper {
     background-color: #00000090;
-}
-
-/*- CHannel Info bar -*/
-.da-themed.da-container .da-children::after {
-    background: transparent
-}
-.da-themed.da-container .da-icon,
-.da-themed.da-container .da-title {
-    color: var(--color-light-pink);
-    text-shadow: 0 0 7px var(--color-light-pink);
-}
-.da-themed.da-container .da-iconWrapper {
-    margin-right: 0px;
-}
-.da-themed.da-container .da-title {
-    font-size: 20px;
-    margin: 0px;
-    padding: 8px;
-}
-.da-title.da-themed svg span{
-    background-color: var(--color-light-red)
 }
 
 /*- Chat -*/
@@ -453,21 +469,9 @@ a.anchor-3Z-8Bb:hover {
     color: var(--color-light-pink)
 }
 
-.da-message.da-mentioned::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-
-    background: var(--pop-up-bg) center center/cover no-repeat;
-    opacity: 60%
+.da-message .da-markup {
+    text-shadow: 0 0 3px #dcddde;
 }
-.da-message.da-mentioned {
-    border-left: 2px solid var(--color-yellow);
-}
-.da-chat .da-messagesWrapper .da-scrollerContent {
-    position: relative
-}
-
 
 /*- Reply -*/
 .da-channelTextArea .da-container {
