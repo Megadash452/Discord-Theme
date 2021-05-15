@@ -1,0 +1,655 @@
+// @name Heart of the Mountain
+// @author Megadash452
+// @version 1
+// @description Celeste theme.
+
+/// TODO: Make new theme just like this one but that actually works
+    
+// -- COLORS --
+$color-blue:       #58AAFC
+$color-light-blue: #7FF2F8
+$color-red:        #B80B33
+$color-light-red:  #FF2457
+$color-gold:       #B8A90B
+$color-yellow:     #FFFC24
+$color-pink:       rgb(211, 98, 201)
+$color-light-pink: #FF7DED
+// --  --
+
+$channel-unread:     $color-yellow
+$channel-hover:      $color-yellow
+$channel-hover-bg: #b8aa0b7f
+$channel-color:    #ffffff5e
+    
+$muted-hover:        $color-gold
+$muted-hover-bg:   #ffffff1a
+$muted-color:      #ffffff1a
+$channel-text-selected: #fff
+$channel-padding:    6px
+$url-color:          $color-light-blue
+
+$base-border:            0px solid #58AAFC6a
+$sidebar-top-color:    rgba(0, 0, 0, 0.35) // rgba(49, 22, 59, 0.35)
+$sidebar-mid-color:    rgba(0, 0, 0, 0.35) // rgba(49, 22, 59, 0.35)
+$sidebar-bottom-color: rgba(0, 0, 0, 0.7) // rgba(49, 22, 59, 0.7)
+$chat-color:           rgba(0, 0, 0, 0.5) // rgba(49, 22, 59, 0.5)
+$input-bg:             #6464644d
+$input-margin:           20px
+    
+$home-icon:        url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true")
+$ping-icon:        url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true")
+$other-icon:       url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true")
+$home-bg:          $color-pink
+$pop-up-bg:        url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true")
+$background-image: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true")
+$background-style: grayscale(0%) sepia(0%) invert(0%) brightness(110%) contrast(119%) saturate(110%) blur(2px)
+$inputbar-style:   grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%)
+// ---  ---
+
+
+.appMount-3lHmkl // ???
+    background: #00000099
+.bg-h5JY_x // ???
+    background: $background-image center/cover no-repeat fixed
+
+
+/// --- --- TOP BAR (windows) --- ---
+.titleBar-AC4pGV
+    background-color: transparent
+    margin: 0px
+    padding-top: 4px
+
+.winButtonClose-1HsbF- // X button
+    background-color: #B80B336c
+    border-top-right-radius: 8px
+
+    &:hover
+        background-color: #FF24576c
+        border-top-right-radius: 0%
+
+.winButtonMinMax-PBQ2gm
+    &:nth-of-type(3) // Other button ?
+        background-color: #B8A90B6a
+        &:hover
+            background-color: #fffb246a
+
+    &:nth-of-type(4) // Minimize button
+        background-color: #58AAFC6a
+        border-top-left-radius: 8px
+        &:hover
+            background-color: #7ff2f86a
+            border-top-left-radius: 0%
+/// --- ---  --- ---
+
+
+/// --- --- Server List and Channels Popouts --- ---
+#guild-context, #guild-header-popout
+    background-image: $background-image
+    background-color: #00000000
+/// --- ---  --- ---
+
+
+/// --- --- Server List --- ---
+.tutorialContainer-1v44GL
+    .homeIcon-tEMBK1
+        background: $home-icon center/cover no-repeat
+        width: 100%
+        height: 100%
+    
+    .childWrapper-anI2G9
+        background-color: transparent
+    .selected-bZ3Lue .childWrapper-anI2G9
+        background-color: $home-bg
+        color: #ffffff
+
+    > path
+        display: none
+
+ul.tree-3tCaw8 .listItem-2P_4kh
+    > .pill-2uzAFe, .pill-31IEus, .pill-1m5BUr
+        > .item-2hkk8m
+            background-color: $color-light-pink
+
+.expandedFolderIconWrapper-1xLaU- > svg
+    color: $color-blue !important
+
+.listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN
+    .circleIconButton-jET_ig 
+        color: $color-light-pink
+        background-color: #ce65c55d
+
+        &.selected-ugP_am
+            color: $color-yellow
+            background-color: $color-light-red
+    
+    &:hover .circleIconButton-jET_ig 
+        color: $color-light-blue !important
+        background: $color-pink !important
+/// --- ---  --- ---
+
+
+/// --- --- App Base --- ---
+.numberBadge-2s8kKX,
+.videoControls-24w7Xp .badge-1z4YpW 
+    background-color: transparent !important
+    border-radius: 0px
+    background: $ping-icon center/cover !important
+
+.numberBadge-2s8kKX 
+    width: 20px !important
+
+.lowerBadge-29hYVK 
+    position: absolute
+    left: 30px
+    top: 32px
+
+
+.mention-1f5kbO.active-1SSsBb 
+    background: $color-light-red !important
+
+
+.upperBadge-2XnnGB
+    position: absolute
+    left: 30px
+    top: 1px
+
+    > .iconBadge-2wi9r4 
+        background-color: transparent !important
+        background: $other-icon center/cover !important
+        border-radius: 0px
+        width: 20px
+
+        >svg
+            width: 12px
+            color: #3a2c55
+    
+
+    
+
+.base-3dtUhz .notice-3bPHh- 
+    background-color: $color-gold
+
+a.anchor-3Z-8Bb 
+    color: $color-light-pink
+    &:hover 
+        color: $color-light-blue
+
+.live-vBWnV6 
+    background-color:  $color-light-red !important
+
+/// --- ---  --- ---
+
+
+/// --- --- CHANNELS & DMs --- ---
+.sidebar-2K8pFh
+    nav.container-3w7J-x, nav.privateChannels-1nO12o 
+        background-color: $sidebar-mid-color
+        border-top-left-radius: 10px
+        border-top: $base-border
+        border-left: $base-border
+
+    .bannerImage-3KhIJ6 
+        border-top-left-radius: 9px
+
+    .header-2V-4Sw
+        .name-1jkAdW, .button-1w5pas 
+            font-size: 20px
+            color: $color-light-blue
+            text-shadow: 0 0 7px $color-light-blue
+
+            padding-top: 10px
+            padding-bottom: 10px
+
+    .searchBar-6Kv8R2, .header-2V-4Sw 
+        background: transparent //$sidebar-top-color
+
+    .searchBarComponent-32dTOx 
+        background: $sidebar-bottom-color
+        border: 1px solid #0a0a0a
+
+    .scroller-RmtA4e, .scroller-1JbKMe 
+        background: transparent //$sidebar-mid-color
+
+    .panels-j1Uci_ 
+        background: $sidebar-bottom-color
+        border-left: $base-border
+
+
+// - Channel Category and +button (hover) -
+.containerDefault-3tr_sE
+    .wrapper-PY0fhH:hover
+        .overflow-WK9Ogt, .arrow-gKvcEx.icon-2yIBmh
+            color: $color-light-red
+    .children-L002ao:hover .addButtonIcon-2CbG1X
+        color: $color-light-red
+    .collapsed-2-tg8y
+        .overflow-WK9Ogt, .arrow-gKvcEx.icon-2yIBmh 
+            color: $color-light-red
+
+
+// - Channel color -
+.content-1x5b-n
+    .iconBase-3LOlfs:hover .actionIcon-PgcMM2,
+    &:hover .name-23GUGE, &:hover .icon-1DeIlz
+        color: $channel-hover
+        text-shadow: 0 0 5px $channel-hover
+
+    .icon-1DeIlz, .name-23GUGE
+        color: $channel-color
+
+    .name-23GUGE, .name-3l27Hl
+        padding-left: $channel-padding
+    
+    .iconContainer-1BBaeJ 
+        margin-right: 0px
+
+// - Category Color -
+.containerDefault-3tr_sE
+    .name-3l27Hl, .addButtonIcon-2CbG1X
+        color: $channel-color
+
+
+.containerDefault--pIXnN .content-1x5b-n
+    &:hover 
+        background: $channel-hover-bg
+
+    .iconBase-3LOlfs:hover .actionIcon-PgcMM2,
+    &:hover .name-23GUGE, &:hover .icon-1DeIlz
+        color: $channel-hover
+        text-shadow: 0 0 5px $channel-hover
+
+    
+// - Channel unread -
+.modeUnread-1qO3K1
+    .name-23GUGE, .icon-1DeIlz 
+        color: $channel-unread
+        text-shadow: 0 0 5px $channel-unread
+
+    .unread-2lAfLh 
+        background: $color-blue
+
+
+// - Channel selected -
+.modeSelected-346R90
+    .name-23GUGE, .icon-1DeIlz, .children-3rEycc .actionIcon-PgcMM2 
+        color: #ffffff
+        text-shadow: 0 0 5px #ffffff
+
+    .content-1x5b-n 
+        background: $color-gold
+
+
+// - Channel muted -
+.modeMuted-onO3r-
+    .name-23GUGE, .icon-1DeIlz 
+        color: $muted-color
+
+    .content-1x5b-n:hover
+        background-color: $muted-hover-bg
+
+        .name-23GUGE, .icon-1DeIlz 
+            color: $muted-hover
+            text-shadow: 0 0 5px $muted-hover
+/// --- ---  --- ---
+
+
+/// --- --- CHAT --- ---
+// - New Messages Barr -
+.newMessagesBar-265mhP,
+#---new-messages-bar .unreadPill-2HyYtt 
+    color: $color-light-blue
+    background: $color-light-red
+    filter: brightness(100%)
+
+
+#---new-messages-bar
+    border-color: $color-light-red
+
+    .content-1o0f9g, .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg 
+        color: $color-light-red
+        fill: $color-light-red
+        filter: brightness(100%)
+
+
+.jumpToPresentBar-G1R9s6 
+    background-color: $color-light-pink
+    opacity: 0.9
+
+    left: $input-margin
+    right: $input-margin
+
+
+.messagesErrorBar-nyJGU7 
+    background-color: $color-red
+    left: $input-margin
+    right: $input-margin
+
+
+.divider-3_HH5L.hasContent-1_DUdQ 
+    border-color: rgb(97, 212, 218)
+
+    .content-1o0f9g
+        color: #4bf6ff
+        background: $background-image center/cover no-repeat fixed
+        filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%)
+
+
+.chat-3bRxxu .children-19S4PO
+    .topic-TCb_qw, .nicknames-1XK4Zt 
+        color: $color-light-blue
+
+
+// - On Call -
+.themed-ANHk51.container-1r6BKw,
+.da-videoControls .da-container.da-transparent 
+    border-top: $base-border
+    background: rgba(0, 0, 0, 0.4)
+
+.akaBadge-1M-1Gw 
+    background: $color-gold
+    color: $color-yellow
+
+.chat-3bRxxu
+    .da-channelName div.da-input 
+        color: $color-light-pink
+        text-shadow: 0 0 7px $color-light-pink
+        font-size: 20px
+
+    .children-19S4PO > .iconWrapper-2OrFZ1 
+        margin-right: 8px
+
+    .videoControls-24w7Xp .title-3qD0b- .title-29uC1r 
+        color: $color-light-pink
+        text-shadow: 0 0 7px $color-light-pink
+        font-size: 20px
+        margin: 0px
+        padding: 8px
+
+    > .toolbar-1t6TWx .iconBadge-qZ4Ksk 
+        background-color: $color-light-red
+
+    > .wrapper-2qzCYF 
+        background: $pop-up-bg center bottom/cover no-repeat
+
+    .wrapper-2qzCYF .root-217Brm 
+        background-color: #000000b3
+
+    
+.themed-ANHk51
+    &.da-title svg span 
+        background-color: $color-light-red
+
+    .container-1r6BKw
+        .da-children::after 
+            background: transparent
+
+        .da-icon
+            color: $color-light-pink
+            text-shadow: 0 0 7px $color-light-pink
+
+        .da-title
+            color: $color-light-pink
+            text-shadow: 0 0 7px $color-light-pink
+
+            font-size: 20px
+            margin: 0px
+            padding: 8px
+
+
+.da-videoControls
+    .da-quickSelectLabel 
+        height: 15px
+
+    .da-quickSelectValue, .da-quickSelectArrow 
+        height: 15px
+        color: $color-yellow
+
+.da-wrapper.da-video .da-tile .da-videoWrapper 
+    background-color: #00000090
+
+
+/*- Chat -*/
+.chat-3bRxxu 
+    background: $chat-color
+
+.da-attachButton svg path
+    fill: $color-pink
+
+
+.mention
+    &.interactive 
+        color: $color-light-pink
+        background-color: rgba(255, 125, 237, 0.1)
+        text-shadow: 0 0 5px $color-light-pink
+
+    &:hover 
+        color: $color-light-blue !important
+        background-color: rgba(255, 125, 237, 0.1)
+        text-shadow: 0 0 5px $color-light-blue
+
+
+.form-2fGMdU
+    padding-right: $input-margin
+    padding-left: $input-margin
+
+    &::before 
+        display: none
+
+    > div 
+        border-radius: 9px
+
+    .da-webkit 
+        background-color: $input-bg
+
+    .da-textAreaSlate .da-placeholder
+        color: $color-light-pink
+
+    .da-channelTextArea 
+        background: $background-image center/cover no-repeat fixed
+        filter: $inputbar-style
+        margin-bottom: $input-margin
+    .da-channelTextAreaDisabled 
+        filter: grayscale(0%) sepia(0%) invert(0%) brightness(70%) contrast(119%) saturate(110%)
+
+
+.da-typing
+    &.da-base
+        height: 20px
+
+        g:nth-of-type(1)
+            color: $color-light-blue
+
+        .da-dots 
+            margin-left: 5px
+
+            circle:nth-of-type(2)
+                color: $color-light-red
+            circle:nth-of-type(3)
+                color: $color-yellow
+
+        .da-text 
+            color: $color-red
+            margin-left: 8px
+
+            > strong 
+                color: $color-light-red
+
+
+.da-message
+    &::before 
+        background-color: $color-yellow
+
+    .da-markup 
+        text-shadow: 0 0 3px #dcddde
+
+
+// - Reply -
+.da-channelTextArea .da-container 
+    background: $pop-up-bg center top
+
+    .da-name 
+        color: $color-yellow
+
+
+// - Loading Messages -
+.da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) 
+    background: transparent
+
+    .da-wrapper.da-cozy 
+        background-color: transparent
+
+    .da-header .da-blob 
+        background: $color-light-pink
+
+    .da-avatar
+        background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true") center/cover no-repeat
+
+    .da-attachmentContainer .da-attachment 
+        background: $pop-up-bg center bottom/cover no-repeat
+        opacity: 0.1 !important
+/// --- ---  --- ---
+
+
+/// --- --- Popups --- ---
+// - File Upload -
+.uploadModal-2ifh8j 
+    background: $pop-up-bg bottom center/cover no-repeat
+
+    .da-inner .channelTextAreaUpload-3t7EIx .webkit-HjD9Er 
+        background: #8f8f8f54
+    > .inner-3nWsbo 
+        background: #00000088
+        margin: 0px
+
+
+    .filename-ovv3c5,
+    .comment-4IWttf > .label-3aiqT2:first-child 
+        color: $color-light-blue
+
+    .comment-4IWttf span.optional--ezibr 
+        color: $color-blue !important
+
+
+    .footer-3mqk7D 
+        background:#000000cc
+        
+        .checkbox-1ix_J3 
+            border-color: $color-blue
+
+            &.checked-3_4uQ9,
+            &.checked-3_4uQ9 > svg > path 
+                border-color: $color-light-blue !important
+                fill: $color-light-blue
+
+        .label-cywgfr > div 
+            color: $color-blue
+
+        .checked-3_4uQ9 > .label-cywgfr > div 
+            color: $color-light-blue
+
+
+        .button-38aScr.lookLink-9FtZy- span 
+            color: $color-light-blue
+
+        .button-38aScr.lookFilled-1Gx00P 
+            background-color: $color-pink
+            span 
+                color: $color-light-blue
+
+
+// - Channel Description -
+.content-38qMG0 
+    color: $color-light-blue
+
+.layerContainer-yqaFcK
+    > .layer-2KE1M9 .modal-3O0aXp 
+        background: $pop-up-bg center/cover no-repeat
+
+        &::before 
+            content: ""
+            position: absolute
+            top: 0
+            bottom: 0
+            left: 0
+            right: 0
+
+            width: 100%
+            height: 100%
+            border-radius: 5px
+            background: rgba(0, 0, 0, 0.6)
+
+        .title-3sZWYQ 
+            color: $color-yellow
+/// --- ---  --- ---
+
+
+/// --- --- s --- ---
+.sidebar-2K8pFh,
+.base-3dtUhz > .content-98HsJk,
+.base-3dtUhz,
+.baseLayer-35bLyl > .container-2lgZY8,
+.baseLayer-35bLyl,
+.da-layers,
+.da-bg,
+.da-app,
+
+.tree-3tCaw8 > .da-scroller,
+.tree-3tCaw8,
+.guilds-1SWlCJ 
+    background-color: transparent
+
+.themed-ANHk51.container-1r6BKw 
+    margin-bottom: 1px
+    &::after 
+        color: transparent
+
+.da-clickable .da-header 
+    height: 49px
+// --- --- --- ---
+
+
+
+
+
+
+/// --- --- Settings --- ---
+// - Settings Side Bar -
+.side-8zPYf6
+    .da-header 
+        color: $color-yellow
+        background-color: transparent
+
+    .da-item 
+        color: $channel-color
+
+        &:hover 
+            background: $channel-hover-bg !important
+
+        &:nth-of-type(8)  //
+            color: $color-light-red !important
+
+    .da-selected 
+        background: $color-gold !important
+        color: #ffffff
+
+
+#bd-settings-sidebar
+    .ui-tab-bar-header 
+        color: $color-yellow !important
+
+        &:hover 
+            background: $channel-hover-bg !important
+
+    .selected 
+        background: $color-gold !important
+        color: #ffffff !important
+
+
+// -- BD -Settings- --
+.bd-switch-checked, .bd-pfbtn 
+    background: $color-light-blue
+    color: grey
+
+.bd-pfbtn:hover 
+    color: #ffffff
+// --- ---  --- ---
