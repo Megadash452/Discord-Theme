@@ -1,3 +1,6 @@
 sample.css
 sample.scss
 /.vs/
+Debug/
+Release/
+x64/
