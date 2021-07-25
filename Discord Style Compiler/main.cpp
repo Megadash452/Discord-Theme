@@ -6,6 +6,7 @@ using std::string;
 #if _DEBUG
 #   define PAUSE system("pause");
 #   define println(x) std::cout<<x<<std::endl
+#   define print(x) std::cout<<x;
 #else
 #   define println(x)
 #endif
@@ -28,6 +29,7 @@ using std::string;
 // 
 // auto detect language (css, scss, sass)
 // make list of discord css classes and ids
+// EVERY shorthand argument must have a normal counterpart
 
 bool read_file(const char* path, string& output)
 {
@@ -61,7 +63,7 @@ int main(int argc, const char** argv)
 
     for (int i = 1; i < argc; i++)
     {
-        if (argv[i] == string{ "-i" })
+        /*if (argv[i] == string{ "-i" })
         {
             read_file(argv[i + 1], input_content);
             i++;
@@ -72,6 +74,16 @@ int main(int argc, const char** argv)
             i++;
         }
         else if (argv[i] == string{ "-f" })
+        {
+
+        }*/
+
+        // shorthand argument
+        if (argv[i][0] == '-')
+        {
+
+        }
+        else if (argv[i][0] == '-' && argv[i][1] == '-')
         {
 
         }

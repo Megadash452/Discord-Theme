@@ -1,696 +1,696 @@
 /* line 48, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .appMount-3lHmkl {
-  background: #00000099;
+    background: #00000099;
 }
 
 /* line 50, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .bg-h5JY_x {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
 }
 
 /* line 55, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .titleBar-AC4pGV {
-  background-color: transparent;
-  margin: 0px;
-  padding-top: 4px;
+    background-color: transparent;
+    margin: 0px;
+    padding-top: 4px;
 }
 
 /* line 60, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonClose-1HsbF- {
-  background-color: #B80B336c;
-  border-top-right-radius: 8px;
+    background-color: #B80B336c;
+    border-top-right-radius: 8px;
 }
 
 /* line 64, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonClose-1HsbF-:hover {
-  background-color: #FF24576c;
-  border-top-right-radius: 0%;
+    background-color: #FF24576c;
+    border-top-right-radius: 0%;
 }
 
 /* line 69, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonMinMax-PBQ2gm:nth-of-type(3) {
-  background-color: #B8A90B6a;
+    background-color: #B8A90B6a;
 }
 
 /* line 71, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonMinMax-PBQ2gm:nth-of-type(3):hover {
-  background-color: #fffb246a;
+    background-color: #fffb246a;
 }
 
 /* line 74, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonMinMax-PBQ2gm:nth-of-type(4) {
-  background-color: #58AAFC6a;
-  border-top-left-radius: 8px;
+    background-color: #58AAFC6a;
+    border-top-left-radius: 8px;
 }
 
 /* line 77, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .winButtonMinMax-PBQ2gm:nth-of-type(4):hover {
-  background-color: #7ff2f86a;
-  border-top-left-radius: 0%;
+    background-color: #7ff2f86a;
+    border-top-left-radius: 0%;
 }
 
 /* line 84, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #guild-context, #guild-header-popout {
-  background-image: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true");
-  background-color: #00000000;
+    background-image: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true");
+    background-color: #00000000;
 }
 
 /* line 92, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .tutorialContainer-1v44GL .homeIcon-tEMBK1 {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true") center/cover no-repeat;
-  width: 100%;
-  height: 100%;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true") center/cover no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 /* line 97, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /* line 99, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .tutorialContainer-1v44GL .selected-bZ3Lue .childWrapper-anI2G9 {
-  background-color: #d362c9;
-  color: #ffffff;
+    background-color: #d362c9;
+    color: #ffffff;
 }
 
 /* line 103, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .tutorialContainer-1v44GL > path {
-  display: none;
+    display: none;
 }
 
 /* line 108, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 ul.tree-3tCaw8 .listItem-2P_4kh > .pill-2uzAFe > .item-2hkk8m, ul.tree-3tCaw8 .listItem-2P_4kh .pill-31IEus > .item-2hkk8m, ul.tree-3tCaw8 .listItem-2P_4kh .pill-1m5BUr > .item-2hkk8m {
-  background-color: #FF7DED;
+    background-color: #FF7DED;
 }
 
 /* line 111, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .expandedFolderIconWrapper-1xLaU- > svg {
-  color: #58AAFC !important;
+    color: #58AAFC !important;
 }
 
 /* line 115, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN .circleIconButton-jET_ig {
-  color: #FF7DED;
-  background-color: #ce65c55d;
+    color: #FF7DED;
+    background-color: #ce65c55d;
 }
 
 /* line 119, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN .circleIconButton-jET_ig.selected-ugP_am {
-  color: #FFFC24;
-  background-color: #FF2457;
+    color: #FFFC24;
+    background-color: #FF2457;
 }
 
 /* line 123, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .listItemWrapper-3X98Pc > .circleButtonMask-2VNJsN:hover .circleIconButton-jET_ig {
-  color: #7FF2F8 !important;
-  background: #d362c9 !important;
+    color: #7FF2F8 !important;
+    background: #d362c9 !important;
 }
 
 /* line 130, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .numberBadge-2s8kKX,
 .videoControls-24w7Xp .badge-1z4YpW {
-  background-color: transparent !important;
-  border-radius: 0px;
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true") center/cover !important;
+    background-color: transparent !important;
+    border-radius: 0px;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Red_Heart.png?raw=true") center/cover !important;
 }
 
 /* line 136, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .numberBadge-2s8kKX {
-  width: 20px !important;
+    width: 20px !important;
 }
 
 /* line 139, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .lowerBadge-29hYVK {
-  position: absolute;
-  left: 30px;
-  top: 32px;
+    position: absolute;
+    left: 30px;
+    top: 32px;
 }
 
 /* line 145, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .mention-1f5kbO.active-1SSsBb {
-  background: #FF2457 !important;
+    background: #FF2457 !important;
 }
 
 /* line 149, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .upperBadge-2XnnGB {
-  position: absolute;
-  left: 30px;
-  top: 1px;
+    position: absolute;
+    left: 30px;
+    top: 1px;
 }
 
 /* line 154, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .upperBadge-2XnnGB > .iconBadge-2wi9r4 {
-  background-color: transparent !important;
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true") center/cover !important;
-  border-radius: 0px;
-  width: 20px;
+    background-color: transparent !important;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Golden_Heart.png?raw=true") center/cover !important;
+    border-radius: 0px;
+    width: 20px;
 }
 
 /* line 160, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .upperBadge-2XnnGB > .iconBadge-2wi9r4 > svg {
-  width: 12px;
-  color: #3a2c55;
+    width: 12px;
+    color: #3a2c55;
 }
 
 /* line 167, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .base-3dtUhz .notice-3bPHh- {
-  background-color: #B8A90B;
+    background-color: #B8A90B;
 }
 
 /* line 170, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 a.anchor-3Z-8Bb {
-  color: #FF7DED;
+    color: #FF7DED;
 }
 
 /* line 172, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 a.anchor-3Z-8Bb:hover {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 175, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .live-vBWnV6 {
-  background-color: #FF2457 !important;
+    background-color: #FF2457 !important;
 }
 
 /* line 183, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh nav.container-3w7J-x, .sidebar-2K8pFh nav.privateChannels-1nO12o {
-  background-color: rgba(0, 0, 0, 0.35);
-  border-top-left-radius: 10px;
-  border-top: 0px solid #58AAFC6a;
-  border-left: 0px solid #58AAFC6a;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-top-left-radius: 10px;
+    border-top: 0px solid #58AAFC6a;
+    border-left: 0px solid #58AAFC6a;
 }
 
 /* line 189, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .bannerImage-3KhIJ6 {
-  border-top-left-radius: 9px;
+    border-top-left-radius: 9px;
 }
 
 /* line 193, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .header-2V-4Sw .name-1jkAdW, .sidebar-2K8pFh .header-2V-4Sw .button-1w5pas {
-  font-size: 20px;
-  color: #7FF2F8;
-  text-shadow: 0 0 7px #7FF2F8;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    font-size: 20px;
+    color: #7FF2F8;
+    text-shadow: 0 0 7px #7FF2F8;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* line 201, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .searchBar-6Kv8R2, .sidebar-2K8pFh .header-2V-4Sw {
-  background: transparent;
+    background: transparent;
 }
 
 /* line 204, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .searchBarComponent-32dTOx {
-  background: rgba(0, 0, 0, 0.7);
-  border: 1px solid #0a0a0a;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #0a0a0a;
 }
 
 /* line 208, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .scroller-RmtA4e, .sidebar-2K8pFh .scroller-1JbKMe {
-  background: transparent;
+    background: transparent;
 }
 
 /* line 211, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .sidebar-2K8pFh .panels-j1Uci_ {
-  background: rgba(0, 0, 0, 0.7);
-  border-left: 0px solid #58AAFC6a;
+    background: rgba(0, 0, 0, 0.7);
+    border-left: 0px solid #58AAFC6a;
 }
 
 /* line 219, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault-3tr_sE .wrapper-PY0fhH:hover .overflow-WK9Ogt, .containerDefault-3tr_sE .wrapper-PY0fhH:hover .arrow-gKvcEx.icon-2yIBmh {
-  color: #FF2457;
+    color: #FF2457;
 }
 
 /* line 221, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault-3tr_sE .children-L002ao:hover .addButtonIcon-2CbG1X {
-  color: #FF2457;
+    color: #FF2457;
 }
 
 /* line 224, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault-3tr_sE .collapsed-2-tg8y .overflow-WK9Ogt, .containerDefault-3tr_sE .collapsed-2-tg8y .arrow-gKvcEx.icon-2yIBmh {
-  color: #FF2457;
+    color: #FF2457;
 }
 
 /* line 230, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .content-1x5b-n .iconBase-3LOlfs:hover .actionIcon-PgcMM2,
 .content-1x5b-n:hover .name-23GUGE, .content-1x5b-n:hover .icon-1DeIlz {
-  color: #FFFC24;
-  text-shadow: 0 0 5px #FFFC24;
+    color: #FFFC24;
+    text-shadow: 0 0 5px #FFFC24;
 }
 
 /* line 235, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .content-1x5b-n .icon-1DeIlz, .content-1x5b-n .name-23GUGE {
-  color: #ffffff5e;
+    color: #ffffff5e;
 }
 
 /* line 238, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .content-1x5b-n .name-23GUGE, .content-1x5b-n .name-3l27Hl {
-  padding-left: 6px;
+    padding-left: 6px;
 }
 
 /* line 241, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .content-1x5b-n .iconContainer-1BBaeJ {
-  margin-right: 0px;
+    margin-right: 0px;
 }
 
 /* line 246, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault-3tr_sE .name-3l27Hl, .containerDefault-3tr_sE .addButtonIcon-2CbG1X {
-  color: #ffffff5e;
+    color: #ffffff5e;
 }
 
 /* line 251, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault--pIXnN .content-1x5b-n:hover {
-  background: #b8aa0b7f;
+    background: #b8aa0b7f;
 }
 
 /* line 254, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .containerDefault--pIXnN .content-1x5b-n .iconBase-3LOlfs:hover .actionIcon-PgcMM2,
 .containerDefault--pIXnN .content-1x5b-n:hover .name-23GUGE, .containerDefault--pIXnN .content-1x5b-n:hover .icon-1DeIlz {
-  color: #FFFC24;
-  text-shadow: 0 0 5px #FFFC24;
+    color: #FFFC24;
+    text-shadow: 0 0 5px #FFFC24;
 }
 
 /* line 262, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeUnread-1qO3K1 .name-23GUGE, .modeUnread-1qO3K1 .icon-1DeIlz {
-  color: #FFFC24;
-  text-shadow: 0 0 5px #FFFC24;
+    color: #FFFC24;
+    text-shadow: 0 0 5px #FFFC24;
 }
 
 /* line 266, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeUnread-1qO3K1 .unread-2lAfLh {
-  background: #58AAFC;
+    background: #58AAFC;
 }
 
 /* line 272, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeSelected-346R90 .name-23GUGE, .modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90 .children-3rEycc .actionIcon-PgcMM2 {
-  color: #ffffff;
-  text-shadow: 0 0 5px #ffffff;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
 }
 
 /* line 276, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeSelected-346R90 .content-1x5b-n {
-  background: #B8A90B;
+    background: #B8A90B;
 }
 
 /* line 282, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeMuted-onO3r- .name-23GUGE, .modeMuted-onO3r- .icon-1DeIlz {
-  color: #ffffff1a;
+    color: #ffffff1a;
 }
 
 /* line 285, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeMuted-onO3r- .content-1x5b-n:hover {
-  background-color: #ffffff1a;
+    background-color: #ffffff1a;
 }
 
 /* line 288, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .modeMuted-onO3r- .content-1x5b-n:hover .name-23GUGE, .modeMuted-onO3r- .content-1x5b-n:hover .icon-1DeIlz {
-  color: #B8A90B;
-  text-shadow: 0 0 5px #B8A90B;
+    color: #B8A90B;
+    text-shadow: 0 0 5px #B8A90B;
 }
 
 /* line 296, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .newMessagesBar-265mhP,
 #---new-messages-bar .unreadPill-2HyYtt {
-  color: #7FF2F8;
-  background: #FF2457;
-  filter: brightness(100%);
+    color: #7FF2F8;
+    background: #FF2457;
+    filter: brightness(100%);
 }
 
 /* line 303, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #---new-messages-bar {
-  border-color: #FF2457;
+    border-color: #FF2457;
 }
 
 /* line 306, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #---new-messages-bar .content-1o0f9g, #---new-messages-bar .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg {
-  color: #FF2457;
-  fill: #FF2457;
-  filter: brightness(100%);
+    color: #FF2457;
+    fill: #FF2457;
+    filter: brightness(100%);
 }
 
 /* line 312, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .jumpToPresentBar-G1R9s6 {
-  background-color: #FF7DED;
-  opacity: 0.9;
-  left: 20px;
-  right: 20px;
+    background-color: #FF7DED;
+    opacity: 0.9;
+    left: 20px;
+    right: 20px;
 }
 
 /* line 320, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .messagesErrorBar-nyJGU7 {
-  background-color: #B80B33;
-  left: 20px;
-  right: 20px;
+    background-color: #B80B33;
+    left: 20px;
+    right: 20px;
 }
 
 /* line 326, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .divider-3_HH5L.hasContent-1_DUdQ {
-  border-color: #61d4da;
+    border-color: #61d4da;
 }
 
 /* line 329, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .divider-3_HH5L.hasContent-1_DUdQ .content-1o0f9g {
-  color: #4bf6ff;
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
-  filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
+    color: #4bf6ff;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
+    filter: grayscale(0%) sepia(0%) invert(0%) brightness(50%) contrast(119%) saturate(110%);
 }
 
 /* line 336, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu .children-19S4PO .topic-TCb_qw, .chat-3bRxxu .children-19S4PO .nicknames-1XK4Zt {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 341, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51.container-1r6BKw,
 .da-videoControls .da-container.da-transparent {
-  border-top: 0px solid #58AAFC6a;
-  background: rgba(0, 0, 0, 0.4);
+    border-top: 0px solid #58AAFC6a;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 /* line 346, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .akaBadge-1M-1Gw {
-  background: #B8A90B;
-  color: #FFFC24;
+    background: #B8A90B;
+    color: #FFFC24;
 }
 
 /* line 351, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu .da-channelName div.da-input {
-  color: #FF7DED;
-  text-shadow: 0 0 7px #FF7DED;
-  font-size: 20px;
+    color: #FF7DED;
+    text-shadow: 0 0 7px #FF7DED;
+    font-size: 20px;
 }
 
 /* line 356, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu .children-19S4PO > .iconWrapper-2OrFZ1 {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 /* line 359, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu .videoControls-24w7Xp .title-3qD0b- .title-29uC1r {
-  color: #FF7DED;
-  text-shadow: 0 0 7px #FF7DED;
-  font-size: 20px;
-  margin: 0px;
-  padding: 8px;
+    color: #FF7DED;
+    text-shadow: 0 0 7px #FF7DED;
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
 }
 
 /* line 366, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu > .toolbar-1t6TWx .iconBadge-qZ4Ksk {
-  background-color: #FF2457;
+    background-color: #FF2457;
 }
 
 /* line 369, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu > .wrapper-2qzCYF {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center bottom/cover no-repeat;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center bottom/cover no-repeat;
 }
 
 /* line 372, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu .wrapper-2qzCYF .root-217Brm {
-  background-color: #000000b3;
+    background-color: #000000b3;
 }
 
 /* line 377, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51.da-title svg span {
-  background-color: #FF2457;
+    background-color: #FF2457;
 }
 
 /* line 381, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51 .container-1r6BKw .da-children::after {
-  background: transparent;
+    background: transparent;
 }
 
 /* line 384, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51 .container-1r6BKw .da-icon {
-  color: #FF7DED;
-  text-shadow: 0 0 7px #FF7DED;
+    color: #FF7DED;
+    text-shadow: 0 0 7px #FF7DED;
 }
 
 /* line 388, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51 .container-1r6BKw .da-title {
-  color: #FF7DED;
-  text-shadow: 0 0 7px #FF7DED;
-  font-size: 20px;
-  margin: 0px;
-  padding: 8px;
+    color: #FF7DED;
+    text-shadow: 0 0 7px #FF7DED;
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
 }
 
 /* line 398, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-videoControls .da-quickSelectLabel {
-  height: 15px;
+    height: 15px;
 }
 
 /* line 401, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-videoControls .da-quickSelectValue, .da-videoControls .da-quickSelectArrow {
-  height: 15px;
-  color: #FFFC24;
+    height: 15px;
+    color: #FFFC24;
 }
 
 /* line 405, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-wrapper.da-video .da-tile .da-videoWrapper {
-  background-color: #00000090;
+    background-color: #00000090;
 }
 
 /*- Chat -*/
 /* line 410, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .chat-3bRxxu {
-  background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* line 413, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-attachButton svg path {
-  fill: #d362c9;
+    fill: #d362c9;
 }
 
 /* line 418, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .mention.interactive {
-  color: #FF7DED;
-  background-color: rgba(255, 125, 237, 0.1);
-  text-shadow: 0 0 5px #FF7DED;
+    color: #FF7DED;
+    background-color: rgba(255, 125, 237, 0.1);
+    text-shadow: 0 0 5px #FF7DED;
 }
 
 /* line 423, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .mention:hover {
-  color: #7FF2F8 !important;
-  background-color: rgba(255, 125, 237, 0.1);
-  text-shadow: 0 0 5px #7FF2F8;
+    color: #7FF2F8 !important;
+    background-color: rgba(255, 125, 237, 0.1);
+    text-shadow: 0 0 5px #7FF2F8;
 }
 
 /* line 429, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU {
-  padding-right: 20px;
-  padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* line 433, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU::before {
-  display: none;
+    display: none;
 }
 
 /* line 436, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU > div {
-  border-radius: 9px;
+    border-radius: 9px;
 }
 
 /* line 439, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU .da-webkit {
-  background-color: #6464644d;
+    background-color: #6464644d;
 }
 
 /* line 442, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU .da-textAreaSlate .da-placeholder {
-  color: #FF7DED;
+    color: #FF7DED;
 }
 
 /* line 445, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU .da-channelTextArea {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
-  filter: grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%);
-  margin-bottom: 20px;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Heart_of_the_Mountain.png?raw=true") center/cover no-repeat fixed;
+    filter: grayscale(0%) sepia(0%) invert(0%) brightness(90%) contrast(119%) saturate(110%);
+    margin-bottom: 20px;
 }
 
 /* line 449, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .form-2fGMdU .da-channelTextAreaDisabled {
-  filter: grayscale(0%) sepia(0%) invert(0%) brightness(70%) contrast(119%) saturate(110%);
+    filter: grayscale(0%) sepia(0%) invert(0%) brightness(70%) contrast(119%) saturate(110%);
 }
 
 /* line 454, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base {
-  height: 20px;
+    height: 20px;
 }
 
 /* line 457, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base g:nth-of-type(1) {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 460, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base .da-dots {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 /* line 463, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base .da-dots circle:nth-of-type(2) {
-  color: #FF2457;
+    color: #FF2457;
 }
 
 /* line 465, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base .da-dots circle:nth-of-type(3) {
-  color: #FFFC24;
+    color: #FFFC24;
 }
 
 /* line 468, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base .da-text {
-  color: #B80B33;
-  margin-left: 8px;
+    color: #B80B33;
+    margin-left: 8px;
 }
 
 /* line 472, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-typing.da-base .da-text > strong {
-  color: #FF2457;
+    color: #FF2457;
 }
 
 /* line 477, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-message::before {
-  background-color: #FFFC24;
+    background-color: #FFFC24;
 }
 
 /* line 480, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-message .da-markup {
-  text-shadow: 0 0 3px #dcddde;
+    text-shadow: 0 0 3px #dcddde;
 }
 
 /* line 485, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-channelTextArea .da-container {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center top;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center top;
 }
 
 /* line 488, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-channelTextArea .da-container .da-name {
-  color: #FFFC24;
+    color: #FFFC24;
 }
 
 /* line 493, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) {
-  background: transparent;
+    background: transparent;
 }
 
 /* line 496, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-wrapper.da-cozy {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /* line 499, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-header .da-blob {
-  background: #FF7DED;
+    background: #FF7DED;
 }
 
 /* line 502, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-avatar {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true") center/cover no-repeat;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Blue_Heart.png?raw=true") center/cover no-repeat;
 }
 
 /* line 505, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-messagesWrapper .da-scrollerInner > div.da-wrapper:nth-of-type(1) .da-attachmentContainer .da-attachment {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center bottom/cover no-repeat;
-  opacity: 0.1 !important;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center bottom/cover no-repeat;
+    opacity: 0.1 !important;
 }
 
 /* line 513, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") bottom center/cover no-repeat;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") bottom center/cover no-repeat;
 }
 
 /* line 516, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .da-inner .channelTextAreaUpload-3t7EIx .webkit-HjD9Er {
-  background: #8f8f8f54;
+    background: #8f8f8f54;
 }
 
 /* line 518, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j > .inner-3nWsbo {
-  background: #00000088;
-  margin: 0px;
+    background: #00000088;
+    margin: 0px;
 }
 
 /* line 523, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .filename-ovv3c5,
 .uploadModal-2ifh8j .comment-4IWttf > .label-3aiqT2:first-child {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 527, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .comment-4IWttf span.optional--ezibr {
-  color: #58AAFC !important;
+    color: #58AAFC !important;
 }
 
 /* line 531, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D {
-  background: #000000cc;
+    background: #000000cc;
 }
 
 /* line 534, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3 {
-  border-color: #58AAFC;
+    border-color: #58AAFC;
 }
 
 /* line 537, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3.checked-3_4uQ9,
 .uploadModal-2ifh8j .footer-3mqk7D .checkbox-1ix_J3.checked-3_4uQ9 > svg > path {
-  border-color: #7FF2F8 !important;
-  fill: #7FF2F8;
+    border-color: #7FF2F8 !important;
+    fill: #7FF2F8;
 }
 
 /* line 542, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .label-cywgfr > div {
-  color: #58AAFC;
+    color: #58AAFC;
 }
 
 /* line 545, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .checked-3_4uQ9 > .label-cywgfr > div {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 549, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .button-38aScr.lookLink-9FtZy- span {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 552, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .button-38aScr.lookFilled-1Gx00P {
-  background-color: #d362c9;
+    background-color: #d362c9;
 }
 
 /* line 554, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .uploadModal-2ifh8j .footer-3mqk7D .button-38aScr.lookFilled-1Gx00P span {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 559, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .content-38qMG0 {
-  color: #7FF2F8;
+    color: #7FF2F8;
 }
 
 /* line 563, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .layerContainer-yqaFcK > .layer-2KE1M9 .modal-3O0aXp {
-  background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center/cover no-repeat;
+    background: url("https://github.com/Megadash452/Discord-Theme/blob/master/res/Summit-bg.png?raw=true") center/cover no-repeat;
 }
 
 /* line 566, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .layerContainer-yqaFcK > .layer-2KE1M9 .modal-3O0aXp::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 /* line 579, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .layerContainer-yqaFcK > .layer-2KE1M9 .modal-3O0aXp .title-3sZWYQ {
-  color: #FFFC24;
+    color: #FFFC24;
 }
 
 /* line 585, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
@@ -705,76 +705,76 @@ a.anchor-3Z-8Bb:hover {
 .tree-3tCaw8 > .da-scroller,
 .tree-3tCaw8,
 .guilds-1SWlCJ {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 /* line 599, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51.container-1r6BKw {
-  margin-bottom: 1px;
+    margin-bottom: 1px;
 }
 
 /* line 601, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .themed-ANHk51.container-1r6BKw::after {
-  color: transparent;
+    color: transparent;
 }
 
 /* line 604, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .da-clickable .da-header {
-  height: 49px;
+    height: 49px;
 }
 
 /* line 616, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .side-8zPYf6 .da-header {
-  color: #FFFC24;
-  background-color: transparent;
+    color: #FFFC24;
+    background-color: transparent;
 }
 
 /* line 620, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .side-8zPYf6 .da-item {
-  color: #ffffff5e;
+    color: #ffffff5e;
 }
 
 /* line 623, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .side-8zPYf6 .da-item:hover {
-  background: #b8aa0b7f !important;
+    background: #b8aa0b7f !important;
 }
 
 /* line 626, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .side-8zPYf6 .da-item:nth-of-type(8) {
-  color: #FF2457 !important;
+    color: #FF2457 !important;
 }
 
 /* line 629, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .side-8zPYf6 .da-selected {
-  background: #B8A90B !important;
-  color: #ffffff;
+    background: #B8A90B !important;
+    color: #ffffff;
 }
 
 /* line 635, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #bd-settings-sidebar .ui-tab-bar-header {
-  color: #FFFC24 !important;
+    color: #FFFC24 !important;
 }
 
 /* line 638, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #bd-settings-sidebar .ui-tab-bar-header:hover {
-  background: #b8aa0b7f !important;
+    background: #b8aa0b7f !important;
 }
 
 /* line 641, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 #bd-settings-sidebar .selected {
-  background: #B8A90B !important;
-  color: #ffffff !important;
+    background: #B8A90B !important;
+    color: #ffffff !important;
 }
 
 /* line 647, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .bd-switch-checked, .bd-pfbtn {
-  background: #7FF2F8;
-  color: grey;
+    background: #7FF2F8;
+    color: grey;
 }
 
 /* line 651, ../../Github/BetterDiscord Themes/Heart of the Mountain/sass/.theme.sass */
 .bd-pfbtn:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /*# sourceMappingURL=.theme.css.map */
