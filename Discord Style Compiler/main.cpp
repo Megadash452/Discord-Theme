@@ -9,6 +9,7 @@ using std::string;
 #   define print(x) std::cout<<x;
 #else
 #   define println(x)
+#   define print(x)
 #endif
 
 #define END return 0;
